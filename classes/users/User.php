@@ -192,14 +192,14 @@ class User{
             }
         }
 
-        if($this->level2){
+     //   if($this->level2){
             foreach($refs as $u){
                 if($u->referral_level == 1){
                     continue;
                 }
                 $totalBalance = $totalBalance +  $u->countAffiliatesRake()*$this->link2_commission;
             }
-        }
+      //  }
 
         $transferHistorySql =  $sql->getArray("SELECT * FROM poker_users_transfer WHERE `playername`= '$this->playername' AND `status` = 1");
         $transerHistoryBalance = 0;

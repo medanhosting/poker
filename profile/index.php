@@ -272,7 +272,7 @@
                                     <?php
                                         // $refs = $user->getReferrals();
                                        
-                                        if($user->level2){
+                                        // if($user->level2){
                                             foreach($refs as $u){
                                                 if($u->referral_level == 1){
                                                     continue;
@@ -304,7 +304,7 @@
                                                 </tr>";
                                             }
                                         
-                                        }
+                                        // }
                                     ?>
                                     <tfoot>
                                         <td colspan='3'>Total rake</td>

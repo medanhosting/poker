@@ -260,7 +260,7 @@
             
             
         ";
-        if($user->level2==1){
+        //if($user->level2==1){
             echo "
             <fieldset class='reflink'>
                 <hgroup>
@@ -279,7 +279,7 @@
             </fieldset>
         
         ";
-        }
+       // }
         echo "</article>";
     }
 ?>
