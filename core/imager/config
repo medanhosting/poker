@@ -1,0 +1,6 @@
+<?php
+	require_once $_SERVER['DOCUMENT_ROOT']."/core/lib/system/System.php";
+	
+	$PATH = REnvars::get("cata_imager_path");
+	$SYSPATH = $_SERVER["DOCUMENT_ROOT"].$PATH;
+?>

@@ -1,0 +1,32 @@
+<?php
+	require_once $_SERVER["DOCUMENT_ROOT"]."/core/auth.php";
+	require_once $_SERVER["DOCUMENT_ROOT"]."/core/lib/utils/Utils.php";
+	require_once $_SERVER["DOCUMENT_ROOT"]."/core/lib/system/System.php";
+	
+	
+#---Put here title of your app. It will be displayed in the app interface. 
+	$APP_TITLE = "Статьи и материалы";
+	
+#---Put here name of Cata-catalog attached to this app. All actions will be done are with this cata.
+	$CATALOG_NAME = "blog";
+	
+	$catalog = new RCatalog($CATALOG_NAME);
+	
+#---Put here a list of lists of fields that are editable. Those fields will make an editor form and only those fields will be editable via this app.
+	$EDITABLE = '[["img","title","shorthand","content"]]';
+	$EDITABLE = json_decode($EDITABLE, true);
+	
+#---Put here an array of arrays of default Cata-values. Note that amount of elements of arrays must be equal to the amount of fields on the
+#---corresonding Cata-level. Otherwise an attempt to create an element will cause an SQL-error of non-matching field amount.
+	$DEFAULT = array(array('Новая статья', 'Краткое описание статьи', '', 0,date("Y-m-d H:i:s"),0,''));
+	
+#---Put here an array of arrays of fields which will be displayed in a list of elements in app. Second parametr is an HTML-tag, that will wrap 
+#---content of that field.
+	$DISPLAYED = '[{"img":"img", "title":"h4","shorthand":"p"}]';
+	$DISPLAYED = json_decode($DISPLAYED, true);
+	
+#---Put here an ID of cImager folder that will be used for cImager modules in app.
+	$CIMAGER_FOLDER = 2;
+	
+#---Automatically generating CS version 1.18.2. Added CKEditor support and cImager folder setting.
+?>

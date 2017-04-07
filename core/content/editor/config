@@ -1,0 +1,5 @@
+<?php
+	require_once $_SERVER[DOCUMENT_ROOT]."/core/lib/sql_class.php";
+	$sql = new SQLConnection;
+	$table = "cata_content_pages";
+?>

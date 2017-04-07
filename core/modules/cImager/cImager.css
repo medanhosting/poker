@@ -1,0 +1,68 @@
+.cImager_window{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(40,40,40,0.7);
+	display: none;
+	padding: 40px 20%;
+	box-sizing: border-box;
+	z-index: 12;
+}
+.cImager_window .cImager_top{
+	width: 100%;
+	padding: 10px;
+	background-color:#fff;
+	border: 1px solid #666;
+	box-shadow: 2px 2px 3px #555;
+	
+	margin-bottom: 15px;
+}
+.cImager_window .cImager_content{
+	height: 70vh;
+	width: 100%;
+	overflow: auto;
+	padding: 10px;
+	background-color:#efefef;
+	border: 1px solid #666;
+	box-shadow: 2px 2px 3px #555;
+}
+.cImager_window .cImager_content ul{
+	padding: 0;
+}
+.cImager_window .cImager_content ul li{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
+	cursor: pointer;
+	
+	
+}
+.cImager_window .cImager_content ul:hover li{
+	opacity: .5;
+}
+.cImager_window .cImager_content ul:hover li:hover{
+	opacity: 1;
+}
+.cImager_window .cImager_content ul li img{
+	max-height: 100px;
+}
+.cImager_top span{
+	display: inline-block;
+	color: #41B072;
+	font-family:"Open Sans", Calibri, sans-serif;
+	cursor: pointer;
+	font-size: 90%;
+	
+}
+.cImager_top form{
+	display: inline;
+}
+.cImager_top label{
+	display: block;
+	float: right;
+}
+.cImager_top label input{
+	display: none;
+}

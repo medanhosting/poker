@@ -1,0 +1,188 @@
+.cEdit_window .cEdit_editor{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.cEdit_window .cEdit_fieldFrame{
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	background-color: #eee;
+}
+.cEdit_window .cEdit_field pre{
+	outline: 0;
+	background-color: #fff;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;	
+	height: 400px;
+	overflow: auto;
+	font-family: sans-serif;
+	
+}
+.cEdit_window nav{
+	min-height: 35px;
+	float: left;
+}
+.cEdit_window nav>ul{
+	padding: 0;
+	margin: 0;
+	min-height: 35px;
+	background-color: #ddf;
+	float: left;
+	width: 100%;
+}
+
+.cEdit_window li.btn{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 2px;
+	cursor: pointer;
+	color: #333;
+	
+}
+.cEdit_window nav *{
+	color: #333;
+}
+.cEdit_window li.separator{
+	float: left;
+	width: 0px;
+	height: 30px;
+	text-align: center;
+	padding: 2px;
+	cursor: pointer;
+	font-size: 0px;
+	border-left: 2px solid #ccf;
+	margin-left: 3px;
+}
+.cEdit_window li.btn>a:link, li.btn>a:visited{
+	color: #333;
+	text-decoration: none;
+	font-family: "Open Sans";
+	font-size: 0;
+	display: block;
+	width: 30px;
+	height: 27px;
+	padding-top: 3px;
+	text-align: center;
+	background-color: rgba(180,200,240,0.4);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 60%;
+	cursor: pointer;
+}
+.cEdit_window li.btn>a:hover{
+	background-color: rgba(180,200,240,0.7);	
+}
+.cEdit_window li.btn>a>input{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	-khtml-appearance: none;
+	appearance: none;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-bottom: -30px;
+	opacity: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+#cEdit_bold{background-image: url("/core/modules/cEdit/icons/bold.png");}
+#cEdit_italic{background-image: url("/core/modules/cEdit/icons/italic.png");}
+#cEdit_strike{background-image: url("/core/modules/cEdit/icons/strike.png");}
+#cEdit_underline{background-image: url("/core/modules/cEdit/icons/underline.png");}
+#cEdit_link{background-image: url("/core/modules/cEdit/icons/link.png");}
+#cEdit_unlink{background-image: url("/core/modules/cEdit/icons/unlink.png");}
+#cEdit_image{background-image: url("/core/modules/cEdit/icons/image.png");}
+#cEdit_fontup{background-image: url("/core/modules/cEdit/icons/fontup.png");}
+#cEdit_fontdown{background-image: url("/core/modules/cEdit/icons/fontdown.png");}
+#cEdit_indent{background-image: url("/core/modules/cEdit/icons/indent.png");}
+#cEdit_outdent{background-image: url("/core/modules/cEdit/icons/outdent.png");}
+#cEdit_ol{background-image: url("/core/modules/cEdit/icons/ol.png");}
+#cEdit_ul{background-image: url("/core/modules/cEdit/icons/ul.png");}
+#cEdit_alignR{background-image: url("/core/modules/cEdit/icons/align_right.png");}
+#cEdit_alignL{background-image: url("/core/modules/cEdit/icons/align_left.png");}
+#cEdit_alignC{background-image: url("/core/modules/cEdit/icons/align_center.png");}
+#cEdit_undo{background-image: url("/core/modules/cEdit/icons/undo.png");}
+#cEdit_redo{background-image: url("/core/modules/cEdit/icons/redo.png");}
+
+.cEdit_window li.fsize{
+	width: 60px;
+}
+.down{
+	background-image: url("/core/modules/cEdit/icons/down.png");
+	background-position: calc(100% - 4px) center;
+	background-repeat: no-repeat;
+}
+.cEdit_window li.fsize select{
+	width: 60px;
+	height: 30px;
+	border: 0;
+	background-color: rgba(180, 200, 240, 0.4);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	outline: none;
+}
+.cEdit_window li.font{
+	width: 160px;
+}
+.cEdit_field{
+	clear: both;
+}
+#cEdit_font {
+	height: 40px;
+	width: 150px;
+	display: inline-block;
+	text-align: left;
+}
+#cEdit_font ul.drop{
+	position: relative;
+	z-index: 3;
+	left: -5px;
+	height: 150px;
+	margin-bottom: -150px;
+	overflow: auto;
+	width: 160px;
+	padding: 0;
+	
+}
+#cEdit_font,  ul.drop li{
+	display: block;
+	height: 20px;
+	text-align: left;
+	padding: 5px;
+	background-color: rgba(180,200,240,0.4);
+	cursor: pointer;
+}
+#cEdit_font ul.drop li:hover{
+	background-color:rgba(180,200,240,0.8);
+}
+
+
+/*----------------CEDIT------------------*/
+#cEdit{
+	width: 100%;
+}
+#cEdit, #cEdit *{
+	color: initial!important;
+	word-wrap: break-word;
+}
+#cEdit ol, #cEdit ul{
+	padding-left: 40px;
+}
+#cEdit ol li{
+	display: list-item;
+	list-style-type: decimal!important;
+}
+#cEdit ul li{
+	display: list-item;
+	list-style-type: disc!important;
+}

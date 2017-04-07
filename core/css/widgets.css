@@ -1,0 +1,70 @@
+.widgets .w_invitation h1,.widgets .w_invitation p{
+	text-align: right;
+}
+.widgets .w_invitation p{
+	font-size: 13px;
+	margin-top: 15px;
+}
+
+.w_form{
+	margin: 15px 0;
+}
+.w_form label{
+	display: block;
+	width: 100%;
+	margin: 5px 0;
+}
+.w_form input[type='text'],.w_form input[type='number'], .w_form input[type='email'], .w_form input[type='datetime-local']{
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	padding: 7px 15px;
+	background: 0;
+	border: 0;
+	background-color: rgba(180,200,240,0.6);
+	color: #eee;
+	font-size: 16px;
+	
+}
+.w_form input[type='button']{
+	display: block;
+	background: 0;
+	border: 0;
+	padding: 10px 15px;
+	background-color: rgba(140, 180, 220, .5);
+	text-align: center;
+	cursor: pointer;
+	transition: background-color .2s;
+	font-size: 16px;
+}
+.w_form input[type='button']:hover{
+	background-color: rgba(200,230,250,0.7);
+}
+.w_form textarea{
+	display: block;
+	resize: none;
+	background: rgba( 230,230,250,0.9);
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	color: #333;
+	border: 5px solid rgba(140, 180, 220, .3);
+	font-size: 15px;
+	
+}
+.w_form fieldset{
+	border: 0;
+	margin: 15px 0;
+}
+.w_form fieldset legend{
+	font-size: 22px;
+}
+
+
+.cke_dialog_ui_input_file{
+	height: 80px!important;
+	
+}
+.cke_contents.cke_reset{
+	min-height: 80vh;
+}

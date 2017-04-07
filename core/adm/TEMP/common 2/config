@@ -1,0 +1,31 @@
+<?php
+	
+	
+#---Put here title of your app. It will be displayed in the app interface. 
+	$APP_TITLE = "Каталог гидроцилиндров";
+	
+#---Put here name of Cata-catalog attached to this app. All actions will be done are with this cata.
+	$CATALOG_NAME = "hydrocvs";
+	
+	require_once $_SERVER["DOCUMENT_ROOT"]."/core/lib/RImages.php";
+	require_once $_SERVER["DOCUMENT_ROOT"]."/core/lib/RTemplates.php";
+	
+	$catalog = new RCatalog($CATALOG_NAME);
+	
+#---Put here a list of lists of fields that are editable. Those fields will make an editor form and only those fields will be editable via this app.
+	$EDITABLE = '[["img","title","price","attached","content"],["img","title"]]';
+	$EDITABLE = json_decode($EDITABLE, true);
+	
+#---Put here an array of arrays of default Cata-values. Note that amount of elements of arrays must be equal to the amount of fields on the
+#---corresonding Cata-level. Otherwise an attempt to create an element will cause an SQL-error of non-matching field amount.
+	$DEFAULT = array(array('Новый гидрораспределитель',0,0,'Описание позиции','',0,''), array('',0,''));
+	
+#---Put here an array of arrays of fields which will be displayed in a list of elements in app. Second parametr is an HTML-tag, that will wrap 
+#---content of that field.
+	$DISPLAYED = '[{"img":"img", "title":"h4"},{"img":"img","title":"h4"},{"img":"img", "title":"h4"}]';
+	$DISPLAYED = json_decode($DISPLAYED, true);
+	
+#---Put here an ID of cImager folder that will be used for cImager modules in app.
+	$CIMAGER_FOLDER = 5;
+	
+#---Automatically generating CS version 1.18.2. Added CKEditor support and cImager folder setting.

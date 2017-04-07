@@ -1,0 +1,600 @@
+main{
+    padding: 0;
+    padding-top: 64px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    min-height: 60vh;
+}
+main>form{
+    padding: 40px 5%;
+}
+main form h2{
+    margin-bottom: 20px;
+}
+main form label{
+    display: block;
+    width: 50%;
+    margin-bottom: 15px;
+}
+main form label *{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+main form label input{
+    padding: 7px 15px;
+    font-family: inherit;
+}
+
+main nav{
+    float: left;
+    width: 15%;
+    background-color: #333;
+    color: #efefef;
+    min-height: 60vh;
+    border-bottom: 1px solid #555;
+}
+main nav a{
+    display: block;
+    width: 100%;
+    color: #efefef;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+main nav a:hover{
+    background-color: #555;
+}
+main nav a.active{
+    background-color: rgb(183,8,25);;
+    color: #efefef;
+}
+main .content{
+    float: right;
+    width: 80%;
+    box-sizing: border-box;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content p{
+    margin-bottom: 15px;
+}
+
+.content table{
+    min-width: 50%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+.content table td{
+    padding: 5px 7px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+}
+.content table thead td{
+    background-color: #333;
+    color: #efefef;
+    border: 0;
+}
+.content table [type='button']{
+    cursor: pointer;
+    background-color: rgb(183,8,25);
+    width: 25px;
+    height: 25px;
+    font-size: 0;
+    color: transparent;
+    transition: .2s;
+    vertical-align: top;
+    margin-right: 3px;
+    background-size: 70%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+.content table [type='button']:hover{
+    background-color: #333;
+}
+.content .frameRequests .accept, .accept{
+    background-image: url('/admin/img/accept.png');
+}
+.content .frameRequests .decline, .decline{
+    background-image: url('/admin/img/decline.png');
+}
+.accepted{
+    color: rgb(8,183,25);
+}
+.declined{
+    color: rgb(183,8,25);
+}
+
+.content .summary{
+    margin: 0px 0;
+}
+.content .summary p{
+    margin-bottom: 0;
+    font-size: 90%;
+}
+.content .rakeHistory span.value{
+    color: rgb(183,8,25);
+}
+.content .rakeHistory table{
+    width: 100%;
+}
+.content .rakeHistory td ul{
+    max-height: 60vh;
+    overflow: auto;
+}
+
+
+
+.content .rakeHistory td b{
+    color: rgb(183,8,25);
+    
+}
+.content .rakeHistory td li{
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+.content .rakeHistory td li:hover{
+    background-color: #eee;
+}
+.content .rakeHistory td li p{
+    margin-bottom: 5px;
+}
+.content .rakeHistory td li .summary p{
+    margin-bottom: 0;
+}
+.content .rakeHistory td h3{
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 130%;
+}
+.content .rakeHistory  td h4{
+    font-weight: bold;
+    font-size: 100%;
+    margin-top: 5px;
+}
+.content .rakeHistory  td h5{
+    
+    font-size: 110%;
+    
+}
+.content .rakeHistory td .desc{
+    font-size: 90%;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.content .popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 13;
+    display: none;
+}
+.content .popup>.wrap{
+    max-height: 70vh;
+    padding: 10px;
+    background-color: #fff;
+    overflow: auto;
+    width: 60%;
+    margin: 30px auto;
+    border-top: 20px solid #444;
+}
+
+.content .popup>.wrap p{
+    margin-bottom: 0;
+    font-size: 90%;
+}
+
+.search{
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.search input{
+    min-width: 10em;
+    font-family: inherit;
+    border: 1px solid #777;
+    padding: 5px 10px;
+    outline: none;
+}
+table#affiliates{
+    width: 100%;
+}
+.affiliates {
+    margin: 20px 0;
+}
+.affiliates li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.affiliates li a{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 22px;
+    text-decoration: none;
+    vertical-align: top;
+    
+}
+.affiliates a.
+.affiliates li a:hover, .affiliates li a.active{
+    color: #fff;
+    background-color: rgb(183,8,25);
+}
+
+input.settings{
+    background-image: url('/img/settings.png');
+}
+
+.affiliatePopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+    z-index: 13;
+}
+.affiliatePopup>*{
+    display: block;
+    padding: 10px;
+    width: 60%;
+    border-top: 30px solid #444;
+    background-color: #fff;
+    margin: 30px auto;
+    max-height: 80vh;
+    box-sizing: border-box;
+    overflow: auto;
+}
+#affiliateSettings .cols{
+    width: 100%;
+    clear: both;
+    margin-bottom: 30px;
+}
+#affiliateSettings .cols .col{
+    float: left;
+    width: 47.5%;
+    margin-right: 5%;
+}
+#affiliateSettings .cols .col:nth-child(2n){
+    margin-right:0;
+}
+
+#affiliateSettings fieldset{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #aaa;
+}
+#affiliateSettings fieldset h3{
+
+    color: #333;
+    font-size: 140%;
+}
+
+#affiliateSettings select{
+    display: block;
+    padding: 7px 15px;
+    border: 1px solid #aaa;
+    
+}
+#affiliateSettings select option{
+    display: block;
+    padding: 5px;
+    color: rgb(183,8,25);
+}
+#affiliateSettings select option[value='1']{
+    color: rgb(25,183,8);
+}
+
+#affiliateSettings input[type='text'], #affiliateSettings [type='number'], #affiliateSettings [type='email']{
+    display: inline-block;
+    outline: none;
+    padding: 7px 15px;
+    font-family: inherit;
+    border: 1px solid #aaa;
+    vertical-align: top;
+}
+#affiliateSettings label{
+    display: block;
+    margin-bottom: 5px;
+}
+#affiliateSettings label span{
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 15px;
+    padding-left: 0;
+    width: 40%;
+    box-sizing: border-box;
+}
+#affiliateSettings label input{
+    width: 55%;
+    box-sizing: border-box;
+}
+#affiliates .details{
+    background-image: url("/img/list.png");
+}
+#affiliates .message{
+    background-image: url("/img/mail.png");
+}
+#affiliateDetails table{
+    width: 100%;
+}
+#affiliateDetails table tbody{
+    max-height: 60vh;
+    overflow-y: auto;
+}
+#affiliateMessage  label{
+    display: block;
+    width: 80%;
+}
+#affiliateMessage textarea{
+    display: block;
+    font-family: inherit;
+    border: 1px solid #777;
+    padding: 7px 15px;
+    height: 7em;
+    width: 100%;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size:110%;
+    
+}
+table td.number, table td .number{
+    color: rgb(8,25,183);
+}
+#affiliateName{
+    color: rgb(183,8,25);
+}
+.referralList, #addReferralForm table{
+    width: 100%;
+}
+.referralList .removeReferral{
+    background-image: url('/img/remove.png');
+}
+.submitAddReferral{
+     background-image: url('/img/add.png');
+}
+
+#addReferralForm {
+    display: none;
+    margin-top: 20px;
+}
+#addReferralForm table tr.inactive td{
+    background-color: #ccc;
+    color: #777;
+}
+
+#affiliateNameSearch{
+        display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#tournaments {
+    width: 100%;
+}
+
+#tournaments td .ok{
+    color: rgb(25,183,8);
+}
+#tournaments td .error{
+    color: rgb(183, 8, 25);
+}
+#tournaments td p{
+    margin-bottom: 0;
+    font-size: 90%;
+}
+#tournaments td.date{
+    font-size: 90%;
+}
+#tournaments td.number{
+    color: rgb(8,25,183);
+}
+
+
+#variables .cols{
+    
+}
+#variables .cols:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+#variables .cols .col{
+    float: left;
+    width: 47.5%;
+    margin-right: 5%;
+}
+#variables .cols .col:nth-child(2n){
+    margin-right: 0;
+}
+#variables fieldset{
+    display: block;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+}
+#variables fieldset hgroup h3{
+    -color: rgb(183,8,25);
+}
+#variables fieldset hgroup p{
+    font-size: 14px;
+    line-height: 1.2;
+    
+}
+#variables fieldset hgroup{
+    margin-bottom: 10px;
+}
+#variables .formula>*{
+        font-size: 15px;
+    line-height: 1.2;
+}
+#variables .formula span{
+    display: inline-block;
+    padding:3px 5px;
+    vertical-align: top;
+
+}
+#variables .formula input{
+    display: inline-block;
+    vertical-align: middle;
+    width: 4em;
+    border: 1px solid #777;
+    color: rgb(183,8,25);
+    padding: 3px 5px;
+    background: inherit;
+}
+#variables .formula input:disabled{
+     background-color: #fff;
+}
+#variables .urls label{
+    display: block;
+    margin-bottom: 10px;
+}
+#variables .urls label>*{
+    display: block;
+}
+#variables .urls label input{
+    font-size: 100%;
+    padding: 5px 8px;
+    font-family: inherit;
+    border: 1px solid #777;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#tournamententries input[type='button']{
+    vertical-align: top;
+    color: #fff;
+    width: auto;
+    height: auto;
+    font-size: 90%;
+    margin: 0;
+}
+#tournamententries input[type='button']:disabled{
+    opacity: .5;
+}
+#tournamententries input[type='number']{
+    display: inline-block;
+    padding: 5px 7px;
+    font-family: inherit;
+    border: 1px solid #777;
+    outline: none;
+}
+#tournamententries input.unsaved{
+    border-color: rgb(183,8,25);
+}
+input[type='checkbox'].unsaved:after{
+    border-color: #777;
+    color: #ccc;
+    background-color: #aaa;
+}
+
+form#createTicket label{
+    display: inline-block;
+    width: auto;
+    margin-bottom: 0;
+}
+form#createTicket label * {
+    display: inline-block;
+    width: auto;
+}
+form#createTicket label select, form#createTicket label input[type='number']{
+    padding: 5px 10px;
+    border: 1px solid #777;
+    cursor: pointer;
+    outline: none;
+    font-family: inherit;
+}
+form#createTicket #saveTicket{
+    margin-left: 10px;
+}
+
+.removeTicket{
+    background-image: url('/img/remove.png');
+}
+#tickets{
+    width: 100%;
+}
+
+#chips .inactive{
+    opacity: .5;
+}
+
+#cashouts {
+    width: 100%;
+}
+
+td span.user{
+    padding-right: 10px;
+}
+input.history{
+    background-image: url("/img/about_hover.png");
+}
+#transfersHistory{
+    
+}
+#transfersHistory nav{
+    display: block;
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: transparent;
+    min-height: 0;
+    border-bottom: 0;
+}
+#transfersHistory nav ul li{
+    display: inline-block;
+}
+#transfersHistory a{
+    display: inline-block;
+    padding:5px 15px;
+       background-color: transparent;
+    color: rgb(183, 8, 25);
+    
+}
+#transfersHistory a.active{
+    border-bottom: 2px solid rgb(183,8,25);
+}
+#transfersHistory  table{
+    width : 100%;
+    display: none;
+}
+
+.editAmount{
+    background-image: url(/img/edit.png);
+    visibility: hidden;
+}
+.saveAmount{
+    background-image: url("/img/save.png");
+}
+
+td span>[type='number']{
+    width: 5em;
+    padding: 2px 10px;
+    border: 1px solid #777;
+    font-family: inherit;
+}
+tr:hover .editAmount{
+    visibility: visible;
+}
+
+.weak{
+    color: #999;
+    font-size: 80%;
+}

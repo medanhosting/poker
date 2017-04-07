@@ -1,0 +1,29 @@
+section ul{
+	display: block;
+	width: 40%;
+	min-width: 300px;
+}
+section li{
+	display: block;
+	padding: 7px 13px;
+	margin-bottom: 15px;
+	background-color: rgba(180,200,240,0.5);
+	cursor: pointer;
+	transition: .4s;
+}
+section li:hover{
+	background-color: rgba(200,200,240,0.9);
+	
+}
+section li span{
+	font-size: 15px;
+}
+section li:hover h2, section li:hover span{color: #777;}
+section li h2{
+	font-weight: normal;
+	font-size: 17px;
+}
+section li p{
+	font-size: 14px;
+	color: #333;
+}

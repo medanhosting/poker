@@ -1,0 +1,29 @@
+<?php
+	#require_once $_SERVER["DOCUMENT_ROOT"]."/core/auth.php";
+	
+#---Put here title of your app. It will be displayed in the app interface. 
+	$APP_TITLE = "Шаблоны верстки";
+	
+#---Put here name of Cata-catalog attached to this app. All actions will be done are with this cata.
+	$CATALOG_NAME = "cata_content";
+	
+	require_once $_SERVER["DOCUMENT_ROOT"]."/core/lib/utils/Utils.php";
+	
+	
+	$catalog = new RCatalog($CATALOG_NAME);
+	
+#---Put here a list of lists of fields that are editable. Those fields will make an editor form and only those fields will be editable via this app.
+	$EDITABLE = '[["title"],["title","head","body"]]';
+	$EDITABLE = json_decode($EDITABLE, true);
+	
+#---Put here an array of arrays of default Cata-values. Note that amount of elements of arrays must be equal to the amount of fields on the
+#---corresonding Cata-level. Otherwise an attempt to create an element will cause an SQL-error of non-matching field amount.
+	$DEFAULT = array(array('Новая папка', ''), array('','','Новый шаблон',''));
+	
+#---Put here an array of arrays of fields which will be displayed in a list of elements in app. Second parametr is an HTML-tag, that will wrap 
+#---content of that field.
+	$DISPLAYED = '[{"title":"h4"},{"title":"h4"}]';
+	$DISPLAYED = json_decode($DISPLAYED, true);
+	
+	
+#---Automatically generating CS version 1.18.2. Added CKEditor support and cImager folder setting.

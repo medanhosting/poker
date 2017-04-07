@@ -1,0 +1,74 @@
+body{
+	width: 90%;	
+	padding: 0 5%;
+}
+body section.catas{
+	float: left;
+	width: 40%;
+	margin-right: 5%;
+}
+.catas ul li{
+	display: block;
+	font-size: 14px;
+	color: #444;
+	cursor: pointer;
+	padding: 3px;
+}	
+.catas ul li:hover{
+	background-color: #eee;
+}
+body section.info{
+	width: 54%;
+	float: right;
+}
+section.info h3{
+	margin:0;
+}
+section.info h4{
+	color: #333;
+	margin: 5px 0;
+	margin-top: 20px;
+}
+section.info p{
+	margin: 0;
+	font-size: 13px;
+}
+section.info .maintable_name {
+	font-size: 13px;
+	color: #333;
+	
+}
+.maintable_name span{
+	font-family: Consolas;
+}
+.catas .maintable_name input{
+	padding:0;
+	border: 1px solid #eee;
+	font-family: Consolas;
+	font-size: 13px;
+}
+section.catas form>label{
+	width: 100%;
+	display: block;
+	margin-bottom: 5px;
+}
+.catas fieldset div label input[type='number']{
+	width: 4em;
+} 
+.catas form{
+	display: none;
+}
+.catas form h4{
+	margin-bottom: 10px;
+	color: #555;
+}
+.catas form #hideForm{
+	border: 0;
+	background: 0;
+	cursor: pointer;
+	font-size: 30px;
+	color: #999;
+	display: block;
+	float: right;
+	margin-top: -54px;
+}

@@ -1,0 +1,641 @@
+body{
+    margin: 0;
+    background: 0;
+    font-family: "Titillium Web", "Roboto", "Calibri", sans-serif;
+     color: #333;
+}
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+   
+}
+*::selection{
+    background-color: rgb(183,8,25);
+    color: #fff;
+}
+header{
+    display: block;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    top:0 ;
+    left: 0;
+    box-sizing: border-box;
+    padding: 0px 5%;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    transition:.2s;
+}
+header>a{
+    display: block;
+    float: left;
+    padding: 5px 0;
+    margin-right: 10px;
+    
+}
+header>a img{
+    display: block;
+    height: 50px;
+}
+header nav{
+    display: block;
+    float: left;
+}
+header nav ul{
+    font-size: 0;
+}
+header nav ul li{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    margin-right: -1px;
+}
+header nav ul li a{
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    transition: .3s;
+    padding-left: 35px;
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    background-size: 14px auto;
+    text-align: center;
+    color: #333;
+}
+header nav ul li a.game{
+    background-image: url('../img/game.png');
+}
+header nav ul li a.game:hover{
+    background-image: url('../img/game_hover.png');
+}
+header nav ul li a.events{
+    background-image: url('../img/events.png');
+}
+header nav ul li a.events:hover{
+    background-image: url('../img/events_hover.png');
+}
+
+header nav ul li a.about:hover{
+    background-image: url('../img/about_hover.png');
+}
+header nav ul li a.about{
+    background-image: url('../img/about.png');
+}
+header nav ul li a.partner{
+    background-image: url('../img/partner.png');
+}
+header nav ul li .balance{
+    padding: 0 3px;
+    padding-left: 20px;
+    background-size: 15px auto;
+    background-position: left center;
+    margin: 0 3px;
+    background-repeat: no-repeat;
+    color: rgb(25,8,183);
+    display: block;
+    background-image: url('/img/coins.png');
+}
+header nav ul li.b{
+    padding: 13px 5px;
+}
+header nav ul li.b div{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: -40px;
+    font-size: 0;
+    display: none;
+}
+header nav ul li.b:hover div{
+    display: block;
+}
+header nav ul li.b a{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    margin-right: -1px;
+    font-size: 15px;
+    background-color: #fff;
+}
+header nav ul li i.link{
+    display: block;
+    text-align: center;
+    font-style: normal;
+    line-height: 1;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(25,8,183);
+    text-decoration: underline;
+}
+
+header nav ul li a.contacts{
+    background-image: url('../img/contacts.png');
+}
+header nav ul li a.contacts:hover{
+    background-image: url('../img/contacts_hover.png');
+}
+header nav ul li #login{
+    background-image: url('../img/login.png');
+}
+header nav ul li #login:hover{
+    background-image: url('../img/login_hover.png');
+}
+header nav ul li #register{
+    background-image: url('../img/register.png');
+}
+header nav ul li #register:hover{
+    background-image: url('../img/register_hover.png');
+}
+
+header nav ul li #profile{
+    background-image: url('../img/user.png');
+}
+header nav ul li #profile:hover{
+    background-image: url('../img/user_hover.png');
+}
+
+header nav ul li a.logout{
+    background-image: url('../img/logout.png');
+}
+header nav ul li .logout:hover{
+    background-image: url('../img/logout_hover.png');
+}
+
+
+
+
+header nav ul li a:hover{
+    color: #fff;
+    background-color: rgb(183,8,25);
+}
+header nav.login{
+    float: right;
+}
+
+#hideHeader{
+    color: transparent!important;
+    background-image: url("../img/close.png");
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: center center;
+    padding: 20px!important;
+    
+}
+#hideHeader:hover{
+    background-image: url("../img/close_hover.png");
+}
+
+
+
+main{
+    display: block;
+    margin-bottom: 40px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    padding: 20px 5%;
+    background-color: #333;
+    color: #eee;
+}
+footer .top{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+footer .top:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+footer .top article{
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+footer .top article h3{
+    font-size: 140%;
+    text-transform: uppercase;
+}
+footer .top article p{
+    font-size: 90%;
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+footer .bottom{
+    text-align: center;
+}
+
+
+#popup{
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#popup form{
+    width: 60%;
+    margin: 30px auto;
+    background-color: #efefef;
+    display: none;
+    
+}
+#popup form h2{
+    padding: 10px 15px;
+    background-color: #333;
+    color: #eee;
+}
+#popup fieldset{
+    padding: 10px;
+}
+#popup fieldset label{
+   display: block;
+   margin-bottom: 10px;
+}
+#popup fieldset label input:not([type='checkbox']):not([type='radio']){
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px 10px;
+    background-color: #fff;
+    border: 0;
+    outline: 2px solid  transparent;
+    font-size: 100%;
+    font-family: inherit;
+    transition: .1s;
+}
+#popup fieldset label input:not([type='checkbox']):not([type='radio']):focus{
+    outline: 2px solid #ccc;
+}
+#popup #login_form{
+    width: 40%;
+}
+#popup input[type='button'], #popup input[type='submit']{
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: inherit;
+    font-size: 110%;
+    text-align: center;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: #ccc;
+    outline: none;
+    cursor: pointer;
+}
+#popup input[type='submit']{
+    background-color:rgb(183,8,25);
+    color: #efefef;
+}
+#popup #closeForm{
+    float: right;
+}
+
+
+#register_form p.buttons{
+    display: block;
+    clear: both;
+}
+#popup #register_form fieldset.cols div{
+    float: left;
+    width: 47.5%;
+    margin-right: 5%;
+}
+#popup #register_form fieldset.cols div:nth-child(2n){
+    margin-right: 0;
+}
+#register_form .title label{
+    float: left;
+    width: 47.5%;
+    margin-right: 5%;
+}
+#register_form .title label:nth-child(2n){
+    margin: 0;
+}
+#register_form .title div:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#register_form label.inline{
+    display: inline-block;
+    padding-right: 15px;
+    width: auto;
+}
+#register_form span.heading{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.status>*{
+    display: block;
+    padding: 7px 10px;
+    margin: 10px 0;
+}
+.status .info{
+    background-color: #bcd;
+    border-left: 3px solid #447;
+    color: #333;
+}
+.status .error{
+    background-color: #caa;
+    border-left: 3px solid rgb(183,8,25);
+}
+
+.status .ok{
+    background-color: #bdb;
+    border-left: 3px solid #474;
+    color: #333;
+}
+.status .warn{
+    background-color: #fddb6d;
+    color: #555;
+    border-left: 3px solid #f5c638;
+}
+
+
+
+
+
+
+
+.button{
+    display: inline-block;
+    color: #fff;
+    padding: 7px 15px;
+    border: 0;
+    margin: 10px;
+    margin-left: 0;
+    background-color: rgba(183,8,25,0.8);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #ccc;
+    font-family: inherit;
+    outline: none;
+    transition: .2s;
+}
+.button:hover{
+    background-color: rgb(183,8,25);
+    
+}
+.button:active{
+    transform: translate(0,1px);
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.spinner_small{
+    display: inline-block;
+    margin: 0 5px;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-left: 2px solid rgb(183,8,25);
+    border-top: 2px solid rgb(183,8,25);
+    
+    animation: spin 1s infinite linear;
+}
+
+.spinner_big{
+    display: block;
+    margin: 5px auto;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-left: 2px solid rgb(183,8,25);
+    border-top: 2px solid rgb(183,8,25);
+    
+    animation: spin 1s infinite linear;
+}
+
+*::-webkit-scrollbar{
+    background: transparent;
+    width: 7px;
+}
+*::-webkit-scrollbar-track{
+    width: 7px;
+    background:transparent;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: rgb(183,8,25);
+    border-radius: 0;
+}
+
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    
+    z-index: 16;
+    display: none;
+}
+.popup>*{
+    background: #fff;
+    padding: 10px;
+    width: 60%;
+    margin: 30px auto;
+    border-top: 30px solid #333;
+    max-height: 80vh;
+    overflow: auto;
+
+    
+}
+
+#freeroll hgroup{
+    margin-bottom: 20px;
+}
+#freeroll table{
+    min-width: 100%;
+    border-collapse: collapse;
+}
+#freeroll table td{
+    padding: 5px;
+}
+#freeroll thead td{
+    background-color: #333;
+    color:#efefef;
+}
+
+#freeroll table tr:nth-child(2n) td{
+    background-color: #eee;
+}
+#freeroll .err{
+    color: rgb(183, 8, 25);
+    font-size: 90%;
+}
+#balance, #requestDeposit{
+    display: none;
+}
+#balance label, #requestDeposit label{
+    display: block;
+    margin-bottom: 10px;
+}
+#balance label span, #balance label input,#requestDeposit label span, #requestDeposit label input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+#balance label input, #balance label select, #requestDeposit label input, #requestDeposit label select{
+    font-size: 100%;
+    font-family: inherit;
+    color: #333;
+    padding: 7px 12px;
+    display: block;
+    width: 60%;
+    border: 1px solid #777;
+}
+
+
+input[type='checkbox']{
+    width: 0;
+    margin-right: 17px;
+
+}
+input[type='checkbox']:after{
+    opacity: 1;
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(183,8,25);
+    color: rgb(183,8,25);
+    line-height: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 17px;
+    
+}
+input[type='checkbox']:checked:after{
+    content: "✓";
+}
+.center{
+    text-align: center;
+}
+
+#partnership{
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 16;
+    box-sizing: border-box;
+    padding: 40px 0;
+    
+}
+#partnership>*{
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+}
+#partnership>*:first-child{
+    border-top: 20px solid #333;
+}
+#partnership hgroup{
+    margin-bottom: 10px;
+}
+#partnership hgroup h3{
+    color: rgb(183,8,25);
+    margin-bottom: 0px;
+    font-size: 130%;
+}
+#partnership hgroup p{
+    font-size: 90%;
+    line-height: normal;
+}
+#partnership div.text input, #partnership div.text textarea{
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    box-sizing: border-box;
+    outline: none;
+}#partnership .label{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-right: 10px;
+}
+#partnership input[type='button']{
+    margin: 0;
+    padding: 5px 12px;
+    margin: 0 5px;
+    border: 0!important;
+}
+#partnership p.label{
+    padding: 1px 0;
+}
+#partnership .label.textarea{
+    float: right;
+    width: auto;
+    margin-right: 0;
+    margin-bottom: -2em;
+}
+#partnership .label.textarea input{
+    width: auto;
+    margin: 0;
+
+}
+.share42init{
+    display: inline-block;
+    padding: 2px;
+    vertical-align: top;
+}
+#transfersHistory{
+    
+}
+#transfersHistory nav{
+    display: block;
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: transparent;
+    min-height: 0;
+    border-bottom: 0;
+}
+#transfersHistory nav ul li{
+    display: inline-block;
+}
+#transfersHistory a{
+    display: inline-block;
+    padding:5px 15px;
+       background-color: transparent;
+    color: rgb(183, 8, 25);
+    
+}
+#transfersHistory a.active{
+    border-bottom: 2px solid rgb(183,8,25);
+}
+#transfersHistory  table{
+    width : 100%;
+    display: none;
+}

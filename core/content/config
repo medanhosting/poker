@@ -1,0 +1,11 @@
+<?php
+	require_once $_SERVER[DOCUMENT_ROOT]."/core/lib/system/System.php";
+	
+	require_once $_SERVER[DOCUMENT_ROOT]."/core/lib/sql_class.php";
+	require_once $_SERVER[DOCUMENT_ROOT]."/core/lib/RCatalog.php";
+	
+	if(is_file($_SERVER[DOCUMENT_ROOT]."/core/content/.uninstalled")) header("Location: /core/content/install/");
+	
+	$sql = new SQLConnection;
+	$table = "cata_content_pages";
+?>

@@ -1,0 +1,171 @@
+body{
+
+}
+section.users{
+	width: 90%;
+	padding: 20px 5%;
+}
+section.actions{
+
+}
+section.users li{
+	display: inline-block;
+	vertical-align: top;
+	
+	margin-bottom: 15px;
+	padding: 5px 10px;
+	padding-left: 40px;
+	transition: .3s;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 35px auto;
+	margin: 10px 30px ;
+	min-height: 45px;
+}
+section.users li:hover, section.users li.active{
+
+}
+section.users li h4{
+	font-size: 15px;
+}
+section.users li p{
+	display: none;
+	font-size: 13px;
+	margin-top: 5px;
+	color: #aaa;
+}
+section.users li.admin{	background-image: url("../img/admin.png");}
+section.users li.moderator{	background-image: url("../img/moderator.png");}
+section.users li.guest{	background-image: url("../img/guest.png");}
+	
+section.users #add{
+	display: block;
+	height: 40px;
+	margin: 10px 30px;
+	background-color: transparent;
+	border: 0;
+	background-image: url("../img/add.png");
+	background-repeat: no-repeat;
+	background-size: 35px auto;
+	background-position: left center;
+	cursor: pointer;
+	padding-left: 40px;
+	font-family: "Open Sans", Calibri, sans-serif;
+}
+section.users #add:hover, section.users li:hover h4{
+	color: #3FAA6F;
+}
+/*=======================*/
+
+form.editor{
+	display: none;
+	
+	width: 90%;
+	margin: 20px 5%;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 15px;
+	border: 1px solid #eee;
+	box-shadow: -2px 2px 3px #ccc;
+	float: left;
+}
+form.editor input, form.editor label, form.editor textarea{
+	display: block;
+}
+form.editor  input[type='text'], form.editor  input[type='password']{
+	display: block;
+	padding: 5px 8px;
+	border: 0;
+	background-color: #f5f5f5;
+	box-shadow: 2px 2px 3px #ccc inset;
+	outline: none;
+	font-size: 15px;
+	min-width: 50%;
+}
+form.editor textarea{
+	display: block;
+	padding: 5px 8px;
+	border: 0;
+	background-color: #f5f5f5;
+	box-shadow: 2px 2px 3px #ccc inset;
+	outline: none;
+	font-size: 15px;
+	min-width: 50%;
+	resize: none;
+	height: 100px;
+	font-size: 14px;
+}
+form.editor input[type='button']{
+	color: #3FAA6F;
+	font-size: 15px;
+	border: 0;
+	background: 0;
+	cursor: pointer;
+	padding: 7px;
+	border-radius: 5px;
+}
+form.editor input[type='button']:hover{
+	background-color: #e6e6e6;
+}
+form.editor fieldset{
+	display: block;
+	margin: 15px 0;
+	border: 0;
+
+}
+form.editor article {
+	clear: both;
+}
+form.editor label{
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+form.editor article label{
+	width: 50%;
+	float: left;
+	background-image: url('../img/admin.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 35px auto;
+	padding: 10px;
+	padding-left: 40px;
+	
+	
+}
+form.editor article label.user2{
+	background-image: url('../img/moderator.png');
+}
+form.editor article label.user3{
+	background-image: url('../img/guest.png');
+}
+form.editor article #remove{
+	border: 0;
+	background: 0;
+	width: 35px;
+	height: 35px;
+	padding: 10px;
+	font-size: 0;
+	
+	border-radius: 5px;
+	float: right;
+	cursor: pointer;
+	background-image: url("../img/remove.png");
+	background-size: 75% 75%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+form.editor article #remove:hover{
+	background-color: #e5e5e5;
+}
+form.editor fieldset{
+	width: 50%;
+	float: right;
+	
+}
+form.editor select{
+	border: 0;
+	font-size: 15px;
+	font-family: inherit;
+	outline: none;
+}

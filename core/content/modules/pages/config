@@ -1,0 +1,9 @@
+<?php
+	require_once $_SERVER[DOCUMENT_ROOT]."/core/lib/sql_class.php";
+	require_once $_SERVER[DOCUMENT_ROOT]."/core/lib/RCatalog.php";
+	
+	$templates = new RCatalog("cata_content");
+	
+	$sql = new SQLConnection;
+	$table = "cata_content_pages";
+?>

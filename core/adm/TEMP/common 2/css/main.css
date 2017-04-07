@@ -1,0 +1,189 @@
+aside{
+	display: block;
+	float: left;
+	width: 35%;
+	margin: 30px 5%;
+}
+input[type='button']#add, .addSub, .addItem{
+	display: inline-block;
+	background-color: #1E824C!important;
+	color: #fff!important;
+	padding: 7px 15px;
+	border: 0;
+	border-radius: 4px;
+	box-shadow: 2px 2px 3px #eee;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+ul.items li, li.item{
+	display: block;
+	clear: both;
+	margin-bottom: 10px;
+}
+ul.items>li.item{
+	margin-bottom: 0;
+}
+li.item .clickable{
+	padding: 10px;
+	display: block;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow: 2px 2px 4px #ccc;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+li.item .clickable:hover{
+	
+}
+li.item.active>.clickable{
+	background-color: #1E824C;
+}
+li.item .clickable img{
+	width: 20%;
+	float: left;
+	margin-right: 5%;
+}
+li.item .clickable h4{
+	margin-bottom: 10px;
+	font-size: 110%;
+}
+li.item .sublist{
+	clear:both;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+   	padding-left: 5%;
+    border-left: 5px solid #1E824C;
+	margin-bottom: 10px;
+}
+li.item .sublist li .clickable h4{
+	font-size: 90%;
+	margin-bottom: 5px;
+}
+li.item .sublist li .clickable .btns{
+	margin-top: 5px;
+}
+li.item .sublist li .clickable img{
+	width: 10%;
+}
+li.item .clickable .btns{
+	text-align: right;
+	margin-top: 10px;
+}
+li.item .clickable .btns input{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: top;
+	background-image: url('/core/img/delete_small.png');
+	background-size: 70% 70%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #eee;
+	border: 0;
+	border-radius: 5px;
+	font-size: 0;
+	cursor: pointer;
+}
+li.item .clickable .btns input.openList{
+	background-image: url('/core/img/image.png');
+	background-size: 90% 90%;
+}
+li.item .clickable .btns input:hover{
+	background-color: #ccc;
+}
+
+.cke_dialog_ui_input_file{
+	height: 80px!important;
+	
+}
+.cke_contents.cke_reset{
+	min-height: 80vh;
+}
+
+form.edit{
+	display: block;
+	float: right;
+	width: 50%;
+	margin: 30px 5%;
+	margin-left:0; 
+}
+form.edit fieldset{
+	display: block;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 2px 2px 4px #ccc;
+	margin-bottom: 15px;
+	border: 0;
+}
+form.edit fieldset label{
+	display: block;
+	margin-bottom: 10px;
+}
+form.edit fieldset label>span{
+	display: block;
+	font-size: 90%;
+}
+form.edit label #img+img{
+
+	max-width: 50%;
+	cursor: pointer;
+}
+.form-horizontal .inline-related span{display: none;}
+
+form.edit fieldset label input[type='text'],form.edit fieldset label input[type='number'], form.edit fieldset label textarea{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	outline: none;
+	padding: 5px 8px;
+    border: 0;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 3px #ccc inset;
+    outline: none;
+    font-size: 15px;
+}
+form.edit fieldset label textarea{
+	resize: none;
+	height: 150px;
+}
+#save, form.edit input[type='button']{
+	border: 0;
+	background: transparent;
+	display: inline-block;
+	padding: 6px 12px;
+	text-align: center;
+	outline: none;
+	color: #41B072;
+	cursor: pointer;
+	font-family: inherit;
+    font-size: 90%;
+	
+}
+form.edit .clickable img{
+	width: 50%;
+}
+
+@keyframes spin{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(90deg);}
+	50%{transform: rotate(180deg);}
+	75%{transform: rotate(270deg);}
+	100%{transform: rotate(360deg);}
+}
+.loader{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 20px auto;
+	border: 3px solid #ccc;
+	border-right: 3px solid #1E824C;
+	border-radius: 50px;
+	animation: spin .5s infinite linear;
+}

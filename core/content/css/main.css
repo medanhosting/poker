@@ -1,0 +1,186 @@
+
+@keyframes spin{
+	0%{ transform: rotate(0deg)}
+	50%{ transform: rotate(180deg)}
+	100%{ transform: rotate(360deg)}
+}
+.miniLoader{
+	display: inline-block;
+	margin: 0px 5px;
+	border-top: 2px solid #899;
+	border-left: 2px solid #afc;
+	border-bottom: 2px solid #899;
+	border-right: 2px solid #899;
+	width: 25px;
+	height: 25px;
+	border-radius: 40px;
+	animation: spin .5s infinite linear;
+}
+
+aside.pages{
+	display: block;
+	width: 25%;
+	float: left;
+	margin: 15px 3%;
+}
+aside.pages ul{
+	display: block;
+	padding: 0;
+	float: left;
+    width: 100%;
+}
+aside.pages li{
+	display: block;
+	width: 100%;
+	-margin-bottom: 4px;
+	
+	cursor: pointer;
+}
+aside.pages li h3{
+	display: block;
+	width: calc(100%);
+	margin-right: -40px;
+
+	box-sizing: border-box;
+	padding: 5px;
+	padding-left: 40px;
+	float: left;
+	font-size: 90%;
+	background-image: url('../img/page.png');
+	background-size: auto 75%;
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	
+	
+	background-color: #fff;
+	box-shadow: -2px 2px 4px #eee;
+	
+		margin-bottom: 5px;
+}
+aside.pages li h3 input{
+	opacity: 0;
+	position: relative;
+	float: right;
+	cursor: pointer;
+	background: 0;
+	border: 0;
+	display: inline-block;
+	vertical-align: top;
+	font-family: inherit;
+	padding: 2px 5px;
+	outline: none;
+}
+aside.pages li:hover input{
+	opacity: 1;
+}
+
+aside.pages ol{
+	padding-left: 10px;
+	margin-left: 10px;
+	border-left: 4px #777 solid;
+	clear: both;
+
+}
+.addPage, #addPage{
+	border: 0;
+	background: 0;
+	font-family: inherit;
+	font-size: 160%;
+	padding: 3px 5px;
+	color: #3FAA6F;
+	cursor: pointer;
+	outline: none;
+}
+section{
+	display: block;
+	width: 60%;
+    left: 35%;
+
+	top: 15px;
+	position: fixed;
+	max-height: 90vh;
+	overflow: auto;
+}
+
+#editor fieldset{
+	padding: 7px 10px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	box-shadow: -2px 2px 4px #eee;
+	
+	margin-bottom: 10px;
+}
+#editor a{
+    display: inline-block;
+	float: right;
+    background: 0;
+    border: 0;
+    padding: 0px 0px;
+
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .2s;
+    font-size: 14px;
+	text-decoration: none;
+	color: #3FAA6F;
+}
+#editor label, #editor div {
+	clear: both;
+	display: block;
+	margin-bottom: 10px;
+	font-size: small;
+}
+#editor label input, #editor label textarea{
+	display: block;
+    padding: 5px 8px;
+    border: 0;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 3px #ccc inset;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+	box-sizing: border-box;
+}
+#editor div{
+	margin-bottom: 10px;
+}
+#editor a.openLink,#editor input[type='button']{
+	    display: inline;
+    padding: 0;
+    background: transparent;
+    text-decoration: none;
+    margin-bottom: -20px;
+    color: #3FAA6F;
+	font-size: small;
+}
+
+#editor select{
+	display: inline-block;
+	padding: 7px 10px;
+	border: 0;
+	border: 1px solid #777;
+	  color: #3FAA6F;
+	margin: 0 5px;
+  
+}
+#editor option{
+	color: #333;
+}
+#editor input[type='button']{
+	border: 0;
+	font-family: inherit;
+	cursor: pointer;
+	outline: none;
+}
+a.button{
+	display: block;
+
+	padding: 7px 0px;
+	border: 0;
+    
+	color:#3FAA6F;
+	
+	font-size: 90%;
+	
+	margin-top: 40px;
+}

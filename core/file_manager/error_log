@@ -1,0 +1,1 @@
+[10-Oct-2016 11:29:12 Europe/Minsk] PHP Warning:  ZipArchive::extractTo(): Invalid or unitialized Zip object in /home/citymast/public_html/core/file_manager/extractZip.php on line 34

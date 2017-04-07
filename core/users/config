@@ -1,0 +1,11 @@
+<?php
+	require_once $_SERVER['DOCUMENT_ROOT']."/core/lib/system/CoreUsers.php";
+	$role=9999999;
+	
+	$data = CoreUsers::getCurrent();
+	
+	$role = $data[role];
+	$user = $data[id];
+	
+	
+?>

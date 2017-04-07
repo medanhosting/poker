@@ -1,0 +1,30 @@
+section ul{
+	margin-left: 30px;
+	padding-left: 10px;
+	-display: none;
+	border-left: 15px solid rgba(205,225,255,0.2);
+}
+section ul li{
+	display: block;
+	padding: 7px;
+}
+section ul li a{
+	font-family: "Open Sans Light";
+}
+section ul.main{
+	border-left: 0;
+	display: block;
+	position: fixed;
+	width: 20%;
+	height: 70%;
+	overflow: auto;
+}
+section ul li:hover>ul{
+	display: block;
+}
+section ul.main a{
+	transition: .2s;
+}
+section ul.main a:hover{
+	color: #89d;
+}

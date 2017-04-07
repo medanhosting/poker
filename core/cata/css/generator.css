@@ -1,0 +1,75 @@
+form{
+	float: right;
+	width: 65%;
+	
+}
+form fieldset{
+	margin-bottom: 10px;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+.column1, .column2{
+	display: block;
+	float: left;
+	width: 47.5%;
+}
+.column1{
+	padding-right: 5%;
+}
+.column1>div, .column2 div{
+	margin-bottom: 30px;
+}
+select{
+	background-color: rgba(180,240,200,0.6);
+	padding: 5px 15px;
+	border: 0;
+	outline:none;
+}
+select option{
+	color: #222;
+	background-color: rgba(180,240,200,0.6);
+}
+select option:disabled{
+	color: #eee;
+}
+.displayed select{
+	width: 70%;
+}
+.displayed p{
+	margin-bottom: 3px;
+}
+.displayed p input{
+	padding: 6px;
+}
+p.info{
+	margin-bottom: 10px;
+}
+
+.actionList p{
+	margin-bottom: 10px;
+	font-size: 80%;
+}
+
+.listButtons div div .removeListButton{
+	    float: right;
+    padding: 5px 10px;
+    width: auto;
+    min-width: 0;
+}
+.listButtons div div select
+{
+	    display: inline-block;
+    vertical-align: top;
+}
+.listButtons div.listButtons_list, .listButtons div.listButtons_list div{
+	margin-bottom: 5px;
+}
+.listButtons .example{
+	background-size: 70% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+fieldset div.title{
+	margin-bottom: 20px;
+}

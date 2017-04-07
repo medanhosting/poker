@@ -1,0 +1,137 @@
+.wrapper{
+	float: left;
+    width: 100%;
+	display: block;
+	padding: 20px 5%;
+	box-sizing: border-box;
+}
+input[type='button']{
+	border: 0;
+	display: inline-block;
+	padding: 7px 15px;
+    background-color: #1E824C;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    
+outline: none;
+}
+input[type='button']:hover{
+	-box-shadow: 0px 0px 0px #aaa;
+	box-shadow: 1px 1px 2px #aaa;
+}
+ul.items{
+	display: block;
+	padding: 0;
+	width: 70%;
+	font-size: 0;
+	margin-top: 20px;
+}
+ul.items li{
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	font-size: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px #ccc;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+ul.items li img{
+	float: left;
+	width: 25%;
+	margin-right: 10px;
+}
+ul.items li h4{
+	margin-bottom: 20px;
+	font-size: 110%;
+}
+ul.items li .btns{
+	text-align: right;
+}
+input.remove{
+	font-size: 0px;
+	width: 25px;
+	height: 25px;
+	padding: 0;
+	background-color: #eee;
+	cursor: pointer;
+	box-sizing: border-box;
+	background-image: url("/core/img/delete_small.png");
+	background-size: 70% 70%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+ul.items li.active{
+	background-color: #1E824C;
+}
+ul.items li:nth-child(2n-1){
+	margin-right: 5%; 
+}
+ul.items li input[type='button']{
+	
+	color:#1E824C; 
+	box-shadow:none;
+}
+
+ul.items li input[type='button']:hover{
+	background-color: #ccc;
+}
+
+section.form{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(40,40,40,0.7);
+	width: 100%;
+	height: 100vh;
+}
+form{
+	display: block;
+	margin: 20px 20%;
+	max-height: 80vh;
+	overflow: auto;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 2px 2px 4px #555;
+}
+form img{
+	max-width: 100%;
+}
+form label{
+	display: block;
+	margin-bottom: 15px;
+}
+form label input[type='text'], form label input[type='number']{
+	display: block;
+    padding: 5px 8px;
+    border: 0;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 3px #ccc inset;
+    outline: none;
+    font-size: 15px;
+width: 100%;
+	box-sizing: border-box;
+    
+   
+}
+form label textarea{
+	    display: block;
+    padding: 5px 8px;
+    border: 0;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 3px #ccc inset;
+    outline: none;
+    font-size: 15px;
+ 	width: 100%;
+	box-sizing: border-box;
+    resize: none;
+    height: 100px;
+    font-size: 14px;
+}
+form label input, form label textarea{
+	display: block;
+}

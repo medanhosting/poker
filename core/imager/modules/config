@@ -1,0 +1,8 @@
+<?php
+	
+	$APP_NAME = "imager";
+	
+	require_once $_SERVER['DOCUMENT_ROOT']."/core/lib/system/System.php";
+	require_once $_SERVER['DOCUMENT_ROOT']."/core/lib/utils/Utils.php";
+	
+	

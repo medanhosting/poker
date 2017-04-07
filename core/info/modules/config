@@ -1,0 +1,8 @@
+<?php
+	$dir = $_SERVER['DOCUMENT_ROOT']."/core/lib";
+	
+	require_once $dir."/system/System.php";
+	
+	$sql = new SQLConnection;
+	
+	

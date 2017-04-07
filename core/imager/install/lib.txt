@@ -1,0 +1,74 @@
+<?php
+
+# Version : 17.1
+# Last update: 16-10-2015
+
+require_once $_SERVER["DOCUMENT_ROOT"]."/core/lib/REnvars.php";
+
+	class RImages{
+		
+		public static function getData($id){
+			$catalog = new RCatalog("cata_images");
+			$path = REnvars::get("cata_imager_path");
+			
+			return $catalog->getItemAt($id,1);
+		}
+		
+		public static function getURL($id){
+			$path = REnvars::get("cata_imager_path");
+			$catalog = new RCatalog("cata_images");
+			$data = $catalog->getItemAt($id,1);
+			$url = $data["url"];
+			if($id==0) {
+				$url='core/imager/img/empty.jpg';
+				$path='';
+			}
+			return "$path/$url";
+		
+		}
+		
+		public static function getImage($id, $attrs=""){
+			
+			$path = REnvars::get("cata_imager_path");
+			$data = RImages::getData($id);
+			$url = $data['url'];
+			if($id==0) {
+				$url='core/imager/img/empty.jpg';
+				$path='';
+			}
+			return "<img src='$path/$url' $attrs/>";
+		}
+		
+		public static function getFolders(){
+			$catalog = new RCatalog("cata_images");
+			return $catalog->getItemsAt(0);
+		}
+		
+		public static function getImages($folder){
+			$catalog = new RCatalog("cata_images");
+			return $catalog->getChildrenOf($folder);
+		}
+		
+		public static function addImage($folder, $file){
+						
+			$catalog = new RCatalog("cata_images");
+			$filename = rand()."_f".$folder."_".$file['name'];
+			
+			
+			$catalog->addItem(array("$filename",'Empty','Empty',$file["size"],'img'),$folder,0);
+			$t = $catalog->getTables();
+			$sql = new SQLConnection();
+			
+			$id= $sql->fetch_array("SELECT max(id) FROM ".$t[1],"\$0");
+			
+			//$id= $id;
+			
+			
+			file_put_contents($_SERVER['DOCUMENT_ROOT'].REnvars::get("cata_imager_path")."/".$filename, file_get_contents($file['tmp_name']));
+			
+			return $id;
+		}
+	}
+
+
+?>

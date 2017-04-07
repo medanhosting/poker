@@ -1,0 +1,136 @@
+@keyframes spin{
+	0%{ transform: rotate(0deg)}
+	50%{ transform: rotate(180deg)}
+	100%{ transform: rotate(360deg)}
+}
+.loading{
+	margin: 20px auto;
+	border-top: 5px solid #899;
+	border-left: 5px solid #afc;
+	border-bottom: 5px solid #899;
+	border-right: 5px solid #899;
+	width: 60px;
+	height: 60px;
+	border-radius: 40px;
+	animation: spin .5s infinite linear;
+}
+
+aside h3{
+	
+	padding: 7px 20px;
+	background: #333;
+	box-shadow: -2px 2px 4px #eee;
+	font-size: 90%;
+	margin-bottom: 15px;
+	color: #f5f5f5;
+}
+aside h3 span{
+	color: rgb(65,176, 114);
+}
+aside h3 .buttons{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 30px;
+	float: right
+}
+#add, #back{
+	background: 0;
+	border: 0;
+	color: rgb(65,176, 114);
+	font-size: 160%;
+	height: 20px;
+	line-height: 20px;
+	font-family: inherit;
+	cursor: pointer;
+	outline: none;
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+#back{
+	
+	font-size: 120%;
+}
+#add{
+	
+}
+
+ul.list{
+	display: block;
+	width: 90%;
+	margin: 0 5%;
+	padding: 0;
+}
+ul.list li{
+	display: block;
+	margin-bottom: 10px;
+	padding: 7px;
+	background-color: #fff;
+	box-shadow: -2px 2px 4px #eee;
+	width: 100%;
+	box-sizing: border-box;
+	float: left;
+	cursor: pointer;
+}
+ul.list li table{
+	width: 85%;
+	width: calc(100% - 60px);
+	border-collapse: collapse;
+	float: left;
+	margin-right: 7px;
+}
+ul.list li table tr.system td:first-child{
+	background-color: #ccc;
+}
+ul.list li table tr td{
+	border: 1px solid #888;
+    padding: 3px;
+    font-size: small;
+}
+ul.list li table tr.editable td:last-child{
+	padding: 0;
+}
+ul.list li table tr.editable td textarea{
+	border: 0;
+	width: 100%;
+	height: 45px;
+	outline: none;
+	padding: 3px;
+	box-sizing: border-box;
+}
+ul.list li input{
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	background-color: transparent;
+	background-image: url("../img/edit.png");
+	background-size: 70% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 0;
+	margin: 0 10px;
+	cursor: pointer;
+	outline: none;
+}
+ul.list li input.save{
+	background-image: url("../img/save.png");
+}
+ul.list li input.remItem{
+	background-image: url("../img/remove.png");
+}
+ul.list li .stats{
+	float: right;
+    padding-left: 25px;
+	font-size: small;
+    padding-right: 10px;
+	background-color: transparent;
+	background-image: url("../img/children.png");
+	background-size: auto 90%;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+ul.list li.focus{
+	border: 1px solid rgb(65,176, 114);
+	width: 110%;
+	margin-left: -5%;
+}

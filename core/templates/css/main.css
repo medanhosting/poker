@@ -1,0 +1,128 @@
+section ul{
+	display: block;
+	padding-left: 60px;
+	
+}
+section>ul{
+	width: 100%;
+}
+section li{
+	display: block;
+	clear: both;
+	width: 100%;
+	
+}
+section.folder_list{
+	width: 45%;
+	margin-right: 5%;
+	float:left;
+}
+section li h3, section li h4{
+	padding-left: 70px;
+	background-repeat: no-repeat;
+	background-size: 45px 45px;
+	background-position: 20px center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 30px;
+	color: #ccc;
+	cursor: pointer;
+}
+section li:hover>h3, section li:hover>h4{
+	color: #aaf;
+}
+section.folder_list form{
+	width: 80%;
+}
+input#addTpl, input#addFolder{
+	display: block;
+	width: 20%;
+	background: rgba(140, 180, 220, .5);
+	border: 0;
+	padding: 3px 10px;
+	margin-top: 20px;
+	margi-left: 30%;
+	font-size: 19px;
+	cursor:pointer;
+}
+input#addFolder{
+	margin: 20px 0;
+}
+section li>h3+span>button,section li>h4+span>button{
+	float: left;
+	position: relative;
+	left: 10px;
+	top: -35px;
+	border: 0;
+	background: 0;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s;
+}
+section li button:hover{
+	color: rgba(140,140,200,1);
+	
+}
+li button{
+	opacity: 0;
+}
+li:hover>span button{
+	opacity: 1;
+}
+
+section.folder_list>ul>li h3{
+	background-image: url("../img/folder.png");
+}
+
+section.folder_list >ul>li>ul>li h4{
+	background-image: url("../img/template.png");
+}
+section.edit_tpl form{
+ 
+}
+section.edit_tpl label{
+	display: block;
+	margin: 5px 0;
+	text-align: right;
+}
+section.edit_tpl h3{
+	text-align: right;
+}
+section.edit_tpl label input{
+	display: block;
+	float: right;
+	border: 0;
+	width:50%;
+	margin-top: 2px;
+	padding: 8px 15px;
+	box-sizing: border-box;
+	background-color: rgba(180, 180, 240, 0.5);
+	text-align: right;
+}
+section.edit_tpl textarea{
+	border: 10px solid rgba(180, 180, 240, 0.5);
+	background-clip: padding-box;
+	background-color: rgba(240, 240, 255, 0.95);
+	padding: 5px;
+	color: #222;
+	font-family: Consolas,monospace;
+	height: 150px;
+	height: 50vh;
+	width: 50%;
+	margin-top: 10px;
+	overflow: auto;
+	resize: none;
+	box-sizing: border-box;
+}
+section.edit_tpl input[type=button]{
+	display: block;
+	width: 15%;
+	background: rgba(140, 180, 220, .5);
+	border: 0;
+	padding: 3px 10px;
+	margin-top: 20px;
+	margi-left: 30%;
+	font-size: 17px;
+	cursor: pointer;
+	float: right;
+}

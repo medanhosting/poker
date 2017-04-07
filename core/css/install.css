@@ -1,0 +1,77 @@
+body{
+	font-family: Open Sans;
+	width: 60%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+body *{
+	text-decoration: none;
+	font-weight: normal;
+	color: #444;
+	
+}
+body header{
+	margin-top: 50px;
+	text-align: center;
+}
+body header h1{
+	text-align: center;
+}
+body header progress{
+	width: 100%;
+	height: 5px;
+	margin: 0 auto;
+	background-color: red;
+	
+}
+body section{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+body section.main.window {
+	text-align: center;
+}
+body section.log textarea{
+	overflow: auto;
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	height: 100px;
+	resize: none;
+}
+body section.log h2{
+	text-align: center;
+}
+
+form input[type='button'].next{
+	font-size: 16px;
+padding: 5px 10px;
+width: 20%;
+cursor: pointer;
+
+}
+
+
+/*----------------------------*/
+form.mysql_data{
+	
+}
+form label{
+	display: block;
+	text-align: left;
+	width: 50%;
+	min-width: 300px;
+	padding: 0 25%;
+	clear: both;
+}
+form label input[type='text']{
+	float: right;
+	padding: 3px;
+	border: 1px solid #1E824C;
+	
+}
+a[href='./']:link,a[href='./']:visited{
+	color: blue;
+	text-decoration: underline;
+	font-size: 18px;
+}

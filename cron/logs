@@ -1,0 +1,1407 @@
+Zend Guard Loader requires Zend Engine API version 220090626.
+The Zend Engine API version 220100525 which is installed, is newer.
+Contact Zend Technologies at http://www.zend.com/ for a later version of Zend Guard Loader.
+
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/pdo_mysql.so' - /usr/lib64/php/modules/pdo_mysql.so: undefined symbol: php_pdo_int64_to_str in Unknown on line 0
+<pre>
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+* About to connect() to 71.19.252.239 port 81 (#0)
+*   Trying 71.19.252.239... * connected
+* Connected to 71.19.252.239 (71.19.252.239) port 81 (#0)
+> POST /api HTTP/1.1
+Host: 71.19.252.239:81
+Accept: */*
+Content-Length: 48
+Content-Type: application/x-www-form-urlencoded
+
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 1705
+< Date: Sat, 26 Nov 2016 15:20:02 GMT
+< 
+* Connection #0 to host 71.19.252.239 left intact
+* Closing connection #0
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+* About to connect() to 71.19.252.239 port 81 (#0)
+*   Trying 71.19.252.239... * connected
+* Connected to 71.19.252.239 (71.19.252.239) port 81 (#0)
+> POST /api HTTP/1.1
+Host: 71.19.252.239:81
+Accept: */*
+Content-Length: 58
+Content-Type: application/x-www-form-urlencoded
+
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 200
+< Date: Sat, 26 Nov 2016 15:20:02 GMT
+< 
+* Connection #0 to host 71.19.252.239 left intact
+* Closing connection #0
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+<p><b>Poker_Grabber::getHandHistoryList() 1594.74 ms</b> </p>Array
+(
+)
+<h3> Totally grabbed 0 files</h3>* About to connect() to 71.19.252.239 port 81 (#0)
+*   Trying 71.19.252.239... * connected
+* Connected to 71.19.252.239 (71.19.252.239) port 81 (#0)
+> POST /api HTTP/1.1
+Host: 71.19.252.239:81
+Accept: */*
+Content-Length: 406
+Content-Type: application/x-www-form-urlencoded
+
+< HTTP/1.1 200 OK
+< Connection: keep-alive
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 2148
+< Date: Sat, 26 Nov 2016 15:20:03 GMT
+< 
+* Connection #0 to host 71.19.252.239 left intact
+* Closing connection #0
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+<h3>Grabbed 11 ring games</h3><p><b>Poker_Grabber::grabRingGames() 385.29 ms</b> </p>PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Zaven in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-15 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Zaven in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-15 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Zaven in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Zaven in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: May in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: May in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-20 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Zaven in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-20 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-20 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-20 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-20 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerD in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-20 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: playerD in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: May in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #4 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #4 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: May in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #5 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: May in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #5 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: May in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #9 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: May in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #9 2016-09-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: aaaadsds in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-09-25 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-25 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-26 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-26 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-26 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-26 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-27 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-09-27 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-27 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-09-27 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-27 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier-4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #2 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-28 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier-4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-09-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier-4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-09-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-09-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #4 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #4 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #4 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: coba in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #8 2016-09-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: coba in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #2 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier-4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #9 2016-10-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: playeruccu in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #2 2016-10-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playeruccu in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: makmur in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #2 2016-10-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: makmur in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #3 2016-10-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-10-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-10-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-10-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #4 2016-10-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #4 2016-10-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #9 2016-10-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-06 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-10-06 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-07 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-07 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-07 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-07 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-07 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-07 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-07 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-10-07 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #9 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #9 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #9 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #9 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #9 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #9 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #9 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #9 2016-10-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-10 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-10 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-11 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-11 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-11 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-11 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-11 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-11 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-12 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-12 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-12 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined offset: 444 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-10-12 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined offset: 444 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined offset: 555 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Ring Game #1 2016-10-12 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined offset: 555 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-12 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #9 2016-10-13 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #9 2016-10-13 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Referral in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Holland 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Referral in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #9 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #9 2016-10-14 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-10-15 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-15 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Olivier in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #9 2016-10-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #9 2016-10-16 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #9 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #9 2016-10-17 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-18 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-19 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-20 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-20 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Olivier2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #8 2016-10-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #9 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #9 2016-10-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-10-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-25 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-25 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-25 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-25 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-10-29 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-10-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-10-30 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #01 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #01 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerD in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-10-31 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #01 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #01 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-11-01 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-02 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-03 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-11-04 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-05 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-05 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-05 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #01 2016-11-05 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #01 2016-11-05 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-11-05 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb9 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-05 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-05 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-06 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-06 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-06 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-06 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PokerMaster in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Holland 2016-11-06 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PokerMaster in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #01 2016-11-06 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-11-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-08 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-11-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #8 2016-11-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #8 2016-11-09 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-11-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-21 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerB in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerC in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: playerD in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #2 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb8 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb7 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #3 2016-11-22 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerD in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: afaf in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 76
+PHP Notice:  Undefined index: Holland 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: afaf in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: PlayerA in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: afaf in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 145
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivier3 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Ring Game #1 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerD in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-11-23 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: playerD in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb4 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb6 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: Holland 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb5 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #1 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #1 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #2 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #2 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Ring Game #3 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Ring Game #3 2016-11-24 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: ssid in /home/host1316886/retarcorp.com/htdocs/poker/core/lib/system/CoreUsers.php on line 24
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined variable: rakeVals in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 21
+PHP Notice:  Undefined index: Holland 2016-11-25 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: Holland 2016-11-25 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 80
+PHP Notice:  Undefined index: olivb1 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Notice:  Undefined index: olivb2 in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 91
+PHP Fatal error:  Call to a member function cacheRake() on a non-object in /home/host1316886/retarcorp.com/htdocs/poker/classes/Poker/Calculations.php on line 152

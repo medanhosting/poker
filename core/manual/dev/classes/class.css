@@ -1,0 +1,75 @@
+section.main{
+	float: left;
+	width: 20%;
+}
+section.content{
+	float: right;
+	width: 70%;
+	margin-left: 5%;
+	
+}
+section.content>span{
+	display: block;
+	color: #aaa;
+	font-size: 14px;
+	text-align: right;
+}
+section.content article{
+	display: block;
+	margin: 15px 0;
+}
+section.content article h2{
+	display: block;
+	padding: 7px 13px;
+	margin-bottom: 15px;
+	background-color: rgba(180, 200, 240, 0.5);
+	
+}
+section.content article>code, section.content article>p{
+	width: 95%;
+	margin-left: 5%;
+}
+section.content code{
+	display: block;
+	padding: 10px;
+	background-color: #ffd;
+	color: #333;
+	
+	box-sizing: border-box;
+	font-family: Consolas;
+	
+}
+section.content i{
+	color: #00f;
+	font-family: Consolas;
+}
+section.content b{
+	color: #04d;
+	font-family: Consolas;
+}
+section.content s{
+	color: #639;
+}
+section.content u{
+	color: #da1;
+}
+section.content article div{
+	width: 95%;
+	margin-left: 5%;
+}
+section.content article h4{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	width: 95%;
+	margin-left: 5%;
+	
+}
+section.content article div{
+	margin-bottom: 15px;
+}
+section.content article code pre{
+	font-family: Consolas;
+	color: #333;
+	overflow: hidden;
+}

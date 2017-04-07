@@ -1,0 +1,5 @@
+ul#catalogEditorFileList li{
+	display: block;
+	margin: 5px 0;
+	cursor: pointer;
+}

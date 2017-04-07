@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+margin: 0;
+padding: 0;
+	font-family: EuropeExt, Consolas, sans-serif;
+ba#ckground-image: url("http://www.cadcamsystems.com/wp-content/uploads/2013/04/lines-311.jpg");
+
+}
+header
+{
+	width: 80%;
+	height: 43px;
+	padding-top: 10px;
+	background-color: #DADADA;
+	border-radius: 7px;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+header nav{
+	width: calc(100% - 6px);
+	margin: 0 auto;
+	border-radius: 5px;
+	padding-top: 5px;
+	margin-top: -5px;
+	height: 45px;
+	box-sizing: border-box;
+	background: rgb(255,255,255);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+	
+}
+header nav ul{
+	margin: 0;
+	padding: 0;
+}
+header nav ul li{
+	display: block;
+	float: left;
+	height: 40px;
+}
+header a:link, header a:visited{
+	color: black;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 45px;
+	box-sizing: border-box;	
+	padding: 0 7px;
+	padding-top: 10px;
+}
+header li:hover{
+	background: rgb(246,248,249);
+background: -moz-linear-gradient(top,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(51%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1)));
+background: -webkit-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+background: -o-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+background: -ms-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+background: linear-gradient(to bottom,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 );
+
+
+}
+header li:first-child{
+	border-bottom-left-radius: 5px;
+}
+

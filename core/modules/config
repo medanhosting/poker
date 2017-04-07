@@ -1,0 +1,5 @@
+<?php
+	
+	require_once $_SERVER['DOCUMENT_ROOT']."/core/lib/utils/Utils.php"; 
+	
+	$catalog = new RCatalog("cata_sliders");

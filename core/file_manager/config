@@ -1,0 +1,4 @@
+<?php
+	$APP_NAME="file_manager";
+	require_once $_SERVER['DOCUMENT_ROOT']."/core/lib/system/FileManager.php";
+	 

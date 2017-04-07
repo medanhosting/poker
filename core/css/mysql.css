@@ -1,0 +1,116 @@
+section *{
+	font-family: EuropeExt, Consolas;
+	font-size: 16px;
+	color: #555;
+
+}
+section textarea{
+	font-family: Consolas;
+	font-size: 14px;;
+	
+}
+section{
+width: 80%;
+	margin: 0 auto;
+
+}
+section form{
+	display: block;
+	width: 40%;
+	float: left;
+	margin-right: 3%;
+	/border: 1px solid #dadada;
+}
+section form textarea{
+	display: block;
+	width: 100%;
+	min-height: 150px;
+	height: 150px;
+	resize: none;
+	overflow: auto;
+	border: 3px solid #dadada;
+	border-radius: 5px;
+	padding: 5px;
+	box-sizing: border-box;	
+	background-color: #fafafa;
+	border-bottom-right-radius: 0;
+}
+section form input{
+	display: block;
+	width: 50%;
+	height: 30px;
+	border: 1px solid #dadada;
+	float: right;
+	cursor: pointer;
+	background: rgb(255,255,255);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+
+}
+section form input:hover{
+	background: rgb(246,248,249);
+background: -moz-linear-gradient(top,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(51%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1)));
+background: -webkit-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+background: -o-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+background: -ms-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+background: linear-gradient(to bottom,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 );
+	border-color: #e5ebee;
+
+}
+section table{
+	margin-top: 10px;
+	border-collapse: collapse;
+	border-radius: 5px;
+	
+}
+section table td{
+	margin:0;
+	border: 1px solid #dadada;
+	padding: 3px 7px;
+	font-family: Calibri;
+	font-size: 15px;
+}
+
+section table thead td{
+	background-color: #dadada;
+	text-align: center;
+}
+.query{
+color: #00A;
+}
+p.error
+{
+	color: #A00;
+}
+
+section ul{
+	height: 200px;
+	overflow: auto;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+	border: 3px solid #dadada;
+	border-radius: 5px;
+	background: #fafafa;
+	border-top-right-radius: 0;
+}
+section ul li:hover{
+	cursor: pointer;
+	background: #fdfdfd;
+
+}
+section ul li pre{
+	margin: 0;
+	font-size: 13px;
+	line-height: 14px;
+	margin-bottom: 5px;
+	font-family: Consolas;
+}

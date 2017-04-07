@@ -1,0 +1,124 @@
+div.appheader{
+	position: fixed;
+	padding: 8px;
+	right: 0;
+	top: 0;
+	width: calc(100% - 50px);
+	background-color: #444;
+}
+div.appheader ul.categories{
+	display: block;
+	float: left;
+}
+div.appheader ul.categories li{
+	display: inline-block;
+	padding-left: 25px;
+}
+div.appheader ul.categories li a{
+	color: #efefef;
+	padding-bottom: 8px;
+}
+div.appheader ul.categories li a:hover, div.appheader ul.categories li a.active{
+	border-bottom: 3px solid rgb(65,176, 114);
+	color: rgb(65,176, 114);
+}
+div.appheader .search {
+	display: block;
+	float: right;
+	padding-right: 20px;
+}
+div.appheader .search input{
+	border: 0;
+	padding: 5px 8px;
+	outline: none;
+	background-color: #fff;
+	
+}
+div.appheader .search input#search{
+	cursor: pointer;
+	width: 25px;
+	background-image: url('../img/search.png');
+	background-size: 80% 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+div.wrapper{
+	width: 90%;
+	padding: 0 5%;
+	padding-top: 80px;
+}
+
+div.wrapper ol li{
+	display: inline-block;
+	background-color: #fff;
+	border: 1px solid #eee;
+	box-shadow: -2px 2px 3px #eee;
+	border-radius: 3px;
+	margin: 10px;
+	padding: 10px;
+	width: 340px;
+	vertical-align: top;
+	cursor: pointer;
+	transition: .2s background-color;
+}
+div.wrapper ol li:hover{
+	 background-color: #fcfcff;
+}
+div.wrapper ol li figure{
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+div.wrapper ol li figure img{
+	height: 50px;
+	float: right;
+	
+	margin-left: 10px;
+}
+div.wrapper ol li figure figcaption{
+	
+}
+div.wrapper ol li figure h2{
+	font-size: 18px;
+}
+div.wrapper ol li article{
+	clear: both;
+	margin-top: 10px;
+	width: 100%;
+}
+div.wrapper ol li article div.chars{
+	float: left;
+	width: 60%;
+	margin-top: -25px;
+}
+
+div.wrapper ol li article div.chars p{
+	font-size: 13px;
+}
+div.wrapper ol li article div:last-child{
+	text-align: right;
+	float: right;
+	
+}
+div.wrapper ol li article div input, div.wrapper ol li article div a{
+	color: rgb(65,176, 114);
+	background: 0;
+	font-size: 15px;
+	border: 0;
+	cursor: pointer;
+	padding: 8px 0;
+	outline: none;
+	display: inline-block;
+	font-family: "Open Sans", Calibri, sans-serif;
+}
+div.wrapper ol li .description{
+	display: none;
+}
+
+
+
+
+
+
+

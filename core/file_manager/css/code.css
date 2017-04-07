@@ -1,0 +1,55 @@
+.js_keyword{
+	color: #9ACD32!important;
+	font-style: italic;
+}
+.js_string{
+	color: #FFA500!important;
+}
+.js_number{
+	color: #9370DB;
+}
+.js_sign{
+	color: #EE6363!important;
+	font-weight: bold;
+}
+.js_comment{
+	color: #CDAA7D!important;
+	font-style: italic;
+}
+
+.css_property{
+	color: #FFA54F!important;
+	font-style: italic;
+}
+.css_unit{
+	color: #9ACD32!important;
+}
+.css_number{
+	color: #63B8FF!important;
+}
+.css_selector{
+	color: #CD2626!important;
+}
+.css_class{
+	color: #CDCD00!important;
+}
+.css_keyword{
+	color: #90EE90!important;
+}
+.html_tag{
+	color: #9ACD32!important;
+}
+.html_bracket{
+	color: #9BCD9B!important;
+}
+.html_attr{
+	color: #9C9C9C!important;
+
+}
+.html_string{
+	color: #DAA520!important;
+	font-style: italic;
+}
+.code, .code *{
+	color: white;
+}

@@ -1,0 +1,383 @@
+body aside{
+	clear: both;
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+	overflow: visible;
+	padding-top: 10px;
+	background-color: #333;
+	box-sizing: border-box;
+	height: 100vh;
+	overflow-y: auto;
+	position: fixed;
+}
+body aside ul{
+	padding-left: 10px;
+	-border-left: 5px solid rgba(180,200,200,0.4);
+	margin-left: -15px;
+}
+body aside>ul{
+	border: 0;
+	padding: 0;	
+}
+aside ul li{
+	display: block;
+	cursor: pointer;
+	background: url('../img/folder-min.png') no-repeat;
+	background-size: 20px 20px;
+	bakground-position: left center;
+	padding-left: 25px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #111;
+	font-size: 13px;
+	color: #fff;
+}
+aside ul li:hover{
+	color: #41B072;
+}
+aside #hideAside{
+	float: right;
+	width: 40px;
+	height: 40px;
+	background: 0;
+	border: 0;
+	background-image: url("../img/hide.png");
+	background-size: 80% 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: -10px;
+	cursor: pointer;
+	outline: none;
+}
+section{
+	
+	
+	height: 90vh;
+
+	width: 74%;
+	box-sizing: border-box;
+	float: right;
+}
+
+section .appheader{
+	display: block;
+	width: calc(75% - 50px);
+	background-color: #444;	
+	padding: 4px;
+	box-sizing: border-box;
+	position: fixed;
+	right: 0;
+	
+}
+section .appheader form{
+	margin: 0;
+	padding: 0;
+}
+section .appheader ol {
+	display: block;
+	width: 100%;
+}
+
+section .appheader ol li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right:5px;
+
+}
+section .appheader ol li.path{
+	width: calc(100% - 300px);
+
+}
+section form p.pathes{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0;
+	background-color: #f5f5f5;
+	box-sizing: border-box;
+}
+section form p.pathes span{
+	cursor: pointer;
+	padding-right: 15px;
+	margin-right: 4px;
+	background: url("../img/triangle.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 10px 10px;
+	font-size: 14px;
+}
+section form p.pathes span:last-of-type{
+	background: none;
+}
+section form p.pathes span:hover{
+	color: #41B072;
+}
+
+section .appheader ol li button{
+	display: block;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	background-color: transparent;
+	border: 0;
+	background-size: 80% 80%;
+	background-position: center center;
+	
+	background-repeat: no-repeat;
+	outline: none;
+	
+}
+section .appheader ol li button:hover{
+	background-color: #555;
+	border-radius: 5px;
+}
+
+section ol li #back{background-image: url("../img/back.png");}
+section ol li #addFile{background-image: url("../img/addFile.png");}
+section ol li #addFolder{background-image: url("../img/addFolder.png");}
+section ol li #paste{background-image: url("../img/paste.png");}
+section ol li #changeView{background-image: url("../img/view1.png");}
+
+
+
+
+section>ul{
+	margin-top: 55px;
+	max-height: 100vh;
+	overflow: auto;
+}
+section>ul li{
+	display: inline-block;
+	-float: left;
+	vertical-align: top;
+	padding: 5px;
+	padding-top: 60px;
+	width: 60px;
+	margin: 7px 10px;
+	max-height: 4em;
+	cursor: pointer;
+	transition: background-color .1s;
+	word-wrap: break-word;
+	font-size: 12px;
+	text-align:center;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	background-position: center 5px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	border: 1px solid transparent;
+}
+section>ul.short{
+	padding-left: 5px;
+}
+section>ul.short li{
+	display: block;
+	padding: 3px;
+	padding-left: 21px;
+	width: 100%;
+	margin: 0px 0;
+	font-size: 14px;
+	background-size: 18px 18px;
+	border: 0;
+	text-align: left;
+	background-position: left center;
+	box-sizing: border-box;
+	
+}
+section>ul.short li:hover{
+	border: 0;
+	box-shadow: none;
+	background-color: #aaa;
+	border-radius: 0;
+}
+section>ul li:hover{
+	background-color: #fff;
+    box-shadow: -2px 2px 2px #eee;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+section>ul li.folder{
+	background-image:url("../img/folder.png");
+}
+section>ul li.file{
+	background-image:url("../img/file.png");
+}
+section>ul li.file.txt{
+	background-image:url("../img/file-txt.png");
+}
+section>ul li.file.css{
+	background-image:url("../img/file-css.png");
+}
+section ul li.file.js{
+	background-image:url("../img/file-js.png");
+}
+section ul li.file.php{
+	background-image:url("../img/file-php.png");
+}
+section ul li.file.zip{
+	background-image:url("../img/file-zip.png");
+}
+section ul li.file.png,section ul li.file.jpg,section ul li.file.gif{
+	background-image:url("../img/file-image.png");
+}
+section form{
+	margin-bottom: 15px;
+}
+
+
+body .contextmenu{
+	display: none;
+	
+}
+body .contextmenu * {
+	color: #fff;
+}
+body .contextmenu ul{
+	display: block;
+	width: 200px;
+	background-color: #080808;
+	padding: 4px;
+}
+body .contextmenu ul li{
+	display: block;
+	font-size: 13px;
+	color: #fff;
+	padding: 3px;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 2px center;
+	cursor: pointer;
+	transition: .2s color;
+}
+body .contextmenu ul li:hover{
+	color: #41B072;
+	background-color:#222;
+}
+body .contextmenu ul li.edit{background-image:url("../img/c_edit.png")}
+body .contextmenu ul li.rename{background-image:url("../img/c_rename.png")}
+body .contextmenu ul li.copy{background-image:url("../img/c_copy.png")}
+body .contextmenu ul li.cut{background-image:url("../img/c_cut.png")}
+body .contextmenu ul li.delete{background-image:url("../img/c_delete.png")}
+body .contextmenu ul li.save{background-image:url("../img/c_save.png")}
+body .contextmenu ul li.properties{background-image:url("../img/c_properties.png")}
+body .contextmenu ul li.zip{background-image:url("../img/archive.png")}
+body .popover{
+	display: block;
+	position: fixed;
+	top: 150px;
+	left: 30%;
+	width: 40%;
+	padding: 10px;
+	background-color: #040404;
+	padding-bottom: 0;
+	padding-right: 0;
+	display: none;
+}
+body .popover input{
+	display: block;
+	float: right;
+	background: rgb(180,210,220);
+	color: #fff;
+	border: 0;
+	padding: 10px 20px;
+	cursor: pointer;
+	
+}
+body .popover input:hover{
+	-background-color: ;
+}
+body .popover *{
+	color: #fff;
+}
+
+form.editor{
+	position: fixed;
+	z-index: 1;
+	background-color: #333;
+	display: block;
+	top: 0;
+	right: 0;
+	width: calc(100% - 52px);
+	display: none;
+	height: 100vh;
+}
+form.editor .status{
+	    display: inline-block;
+    float: left;
+    color: #eee;
+    padding: 7px 0;
+    font-size: 14px;
+
+}
+#editor-name{
+	border: 0;
+	padding: 5px;
+	pointer-events: none;
+	background-color: #eee;
+	position: relative;
+	top: 5px;
+	margin-left: 20px;
+	width: 25%;
+}
+#editor-save{
+	font-size: 0px;
+	width: 35px;
+	height: 35px;
+	border: 0;
+	background: 0;
+	cursor: pointer;
+	background-image: url('../img/save.png');
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	outline: none;
+}
+#editor-save:hover{
+	background-color: #555;
+	border-radius: 4px;
+}
+form.editor fieldset{
+	padding: 5px;
+	border: 0;
+	text-align: right;
+	
+}
+form.editor fieldset:last-of-type{
+	padding:0;
+	background-color: white;
+}
+
+form.editor #editor{
+	width: 100%;
+	height: calc(100vh - 50px);
+	resize: none;
+	overflow: auto;
+	padding: 5px;
+	font-family: Consolas;
+	tab-size: 4;
+	color: #222;
+	font-size: 12px;
+	box-sizing: border-box;
+	outline: none;
+	border: 0;
+}
+
+@keyframes spin{
+	0%{ transform: rotate(0deg)}
+	50%{ transform: rotate(180deg)}
+	100%{ transform: rotate(360deg)}
+}
+.miniLoader{
+	display: inline-block;
+	margin: 5px 5px;
+	border-top: 2px solid #899;
+	border-left: 2px solid #afc;
+	border-bottom: 2px solid #899;
+	border-right: 2px solid #899;
+	width: 25px;
+	height: 25px;
+	border-radius: 40px;
+	animation: spin .5s infinite linear;
+}

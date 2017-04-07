@@ -1,0 +1,211 @@
+ul#catalogEditorFileList{
+	clear: both;
+	float: left;
+}
+ul#catalogEditorFileList>li{
+	display: block;
+	cursor: pointer;
+	
+	//border-left: 2px solid #333;
+	margin: 0;
+	padding: 10px 0;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 14px;
+	font-family: Consolas;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #777;
+}
+ul#catalogEditorFileList>li.folder{
+	background-image: url('../img/folder.png');
+	background-repeat: no-repeat;
+	padding-left: 55px;
+	background-size: 40px auto;
+	background-position: 10px center;
+}
+ul#catalogEditorFileList>li.element{
+	background-image: url('../img/file.png');
+	background-repeat: no-repeat;
+	padding-left: 55px;
+	background-size: 40px auto;
+	background-position: 10px center;
+}
+ul#catalogEditorFileList>li#goBack{
+	background-image: url('../img/opened.png');
+	background-repeat: no-repeat;
+	padding-left: 55px;
+	background-size: 50px auto;
+	margin: 0;
+	border-left:0;
+
+}
+.back{
+	margin:0;
+	display: none;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top:0;
+	left: 0;
+	
+	z-index: 1;
+}
+ul#catalogEditorFileList>li{
+	float: left;
+	width: 90%;
+	
+}
+ul#catalogEditorFileList>p{clear:both;}
+ul#catalogEditorFileList>li>article{
+	display: block;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom: 3px;
+}
+ul#catalogEditorFileList>li>table
+{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	vertical-align: middle;
+}
+ul#catalogEditorFileList>li>table td{
+	padding: 3px;
+	border: 1px solid #ccc;
+	margin: 0;
+	
+}
+ul#catalogEditorFileList>li>table td.key{
+	background: #eee;
+	color: #777;
+	width: 5%;
+}
+ul#catalogEditorFileList>li>div{
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+ul#catalogEditorFileList>li>div>input{
+	margin: 0 3px;
+	display: inline-block;
+	width: 20px;
+	height: 19px;
+	border:0;
+	background: 0;
+	border-radius: 15px;
+	border: 2px solid #555;
+	color: #555;
+	font-family: Consolas;
+	text-align: center;	
+	text-indent: -1px;
+	cursor: pointer;
+	transition: .4s;
+}
+ul#catalogEditorFileList>li>div>input:hover{
+	background: #444;
+	color: #eee;
+}
+ul#catalogEditorFileList>li>table td.value article{
+	max-height: 200px;
+	overflow: auto;
+}
+{
+	color: #eee;
+	font-weight: normal;
+	display: inline-block;
+	padding: 3px 7px;
+	border: 2px solid #555;
+	background: rgba(40,40,40,0.3);
+	font-size: 15px;
+	float: left;
+	clear: both;
+}
+
+form.changesForm{
+	position: fixed;
+	top: 40px;
+	left: 25%;
+	width: 46%;
+	padding: 10px 2%;
+	max-height: 90vh;
+	overflow: auto;
+	background: white;
+	border: 2px solid #444;
+	z-index: 2;
+	display: none;
+}
+form.changesForm *{
+	z-index: 4;
+}
+form.changesForm h5{
+	margin: 5px 0;
+	font-size: 18px;
+	color: #444;
+}
+form.changesForm p{
+	 font-family: Consolas;
+margin: 0;
+margin-bottom: 20px;
+}
+form.changesForm label{
+	display: block;
+	font-family: Consolas;
+	font-size: 17px;
+	color: #119;
+}
+form.changesForm label input{
+	display: block;
+	margin: 0;
+	padding: 3px 5px;
+	font-size: 14px;
+	min-width: 90%;
+	margin-bottom: 20px;
+}
+form.changesForm>input{
+	display: block;
+	margin: 0;
+	padding: 3px 10px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+form.changesForm textarea{
+	display: block;
+	margin: 0;
+	padding: 3px 5px;
+	font-size: 14px;
+	min-width: 90%;
+	min-height: 40px;
+	overflow: auto;
+	
+	margin-bottom: 20px;
+	
+}
+form.changesForm pre{
+	border: 2px solid #ddd;
+	padding: 3px;
+	width: 90%;
+	min-height: 80px;
+	max-height: 200px;
+	overflow: auto;
+	font-size: initial;
+	color: initial;
+	font-family: Calibri;
+}
+ul#catalogEditorFileList>p.add{
+	font-size: 14px;
+	font-family: Consolas;
+	margin-top: 40px;
+	padding-left: 70px;
+	background: url('../img/add.png');
+	background-size: 35px auto;
+	background-repeat: no-repeat;
+	background-position: 20px 0;
+	padding-top: 10px;
+	height: 30px;
+	cursor: pointer;
+}
+ul#catalogEditorFileList>li:hover, ul#catalogEditorFileList>p:hover{
+	background-color: #eee;
+	transition: .3s;
+}

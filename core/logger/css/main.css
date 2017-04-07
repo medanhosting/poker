@@ -1,0 +1,54 @@
+table{
+	border-collapse: collapse;
+	border: 1px solid #111;
+	width: 100%;
+}
+table thead td{
+	background-color: #333;
+	color: #fff;
+	padding: 5px 5px;
+	border-color: #333;
+}
+table td{
+	border-left: 1px solid #333;
+	padding: 2px 5px;
+	background-color: #fff;
+	font-size: 13px;
+}
+table tr:hover td{
+	background-color: #f5f5f5;	
+	
+}
+td.date{
+	width: 15em;
+}
+td.status{
+	
+	width: 20px;
+	background-image: url("../img/info.png");
+	background-size: auto 15px;	
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+td.status.info{
+	
+}
+td.status.warn{
+	
+	background-image: url("../img/warn.png");
+}
+td.status.error{
+	
+	background-image: url("../img/error.png");
+}
+td.status.critical_error{
+	
+	background-image: url("../img/cerror.png");
+}
+
+td.content div{
+	white-space: nowrap;
+    width: 60vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

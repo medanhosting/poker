@@ -1,0 +1,1771 @@
+CREATE TABLE poker_deposit_transactions(
+        id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+        ,user VARCHAR(1000)
+        ,amount FLOAT
+        ,date DATETIME
+        ,status INT
+        ,data TEXT
+    )---
+INSERT INTO poker_variables VALUES 
+        (default, 'points_invitation', 50, default, '')
+        ,(default, 'referral_mintime', 10, default, '')
+        ,(default, 'invitations_affiliate', 3, default, '')
+        ,(default, 'points_formula_rake', 14, default, '')
+        ,(default, 'invitations_affiliate_rake', 150, default, '')
+        ,(default, 'second_level_commission', 0.095, default, '')
+        ,(default, 'url_game_frame', 'http://71.19.252.239:81', default, '')
+        ,(default, 'domain_referrals', 'http://poker.retarcorp.com/', default, '')
+        ---
+select * from poker_users---
+show tables---
+show tables---
+show tabls---
+INSERT INTO poker_users (`id`,`name`, `balance`, `points`, `points_dec`, `tournaments_fee`,`chips`, `referral`, `referral_level`, `email`, `password`, `realname`, `location`, `gender`, `api_id`, `registered`,`totalrake`, `comission`,,`level2_comission`,`rake`,`rake_parsed`) VALUES (default, '1212',0,default,default,0, 0,4690507, 1, 'a@b.c','1234321', 'Omnis', 'Mogilev', 2, 0, NOW(), default, 0, default, 0, NOW() )---
+insert into poker_variables values (default, 'domain_referrals', 'X', NOW(), '')---
+insert into poker_variables values (default, 'url_game_frame', 0.05, NOW(), '')---
+insert into poker_variables values (default, 'second_level_commission', 0.05, NOW(), '')---
+select * from poker_variables---
+alter table poker_users add column level2_comission FLOAT default 0.1 after comission---
+select * from poker_users---
+select * from poker_users---
+alter table poker_users add column tournaments_fee FLOAT default 0 AFTER points_dec---
+select * from poker_users---
+select * from poker_users---
+update poker_users set income_paid = 0---
+select * from poker_users---
+select * from poker_users---
+alter table poker_users add column income FLOAT default 0 AFTER rake---
+alter table poker_users add column income_paid FLOAT default 0 AFTER rake---
+select * from poker_users---
+alter table poker_users drop column rake_paid---
+alter table delete column rake_paid---
+alter table remove column rake_paid ---
+select * from poker_users---
+alter table poker_users add column rake_paid FLOAT default 0 AFTER rake---
+alter table poker_users add column rake_paid FLOAT default 0 AFTER rake---
+select * from poker_users---
+select * from users---
+select * from poker_affiliate_requests---
+UPDATE poker_affiliate_requests SET status =2 AND answered='2016-11-15 10:38:39' WHERE id=1---
+select * from poker_affiliate_requests---
+UPDATE poker_affiliate_requests SET status=2 AND answered='NOW()' WHERE id=1---
+select * from poker_affiliate_requests---
+UPDATE poker_affiliate_requests SET status=2 WHERE id=1---
+select * from poker_affiliate_requests WHERE id=1---
+select * from poker_affiliate_requests---
+UPDATE poker_affiliate_requests SET status=2 AND answered=NOW() WHERE id=1---
+select * from poker_affiliate_requests---
+UPDATE poker_affiliate_requests SET status =2 AND answered=NOW() WHERE id=1---
+UPDATE poker_affiliate_requests SET status =2 AND answered=NOW()---
+admin.js:162 UPDATE poker_affiliate_requests SET status =2 AND answered=NOW()---
+select * from poker_affiliate_requests---
+select * from poker_affiliate_requests---
+select * from poker_frame_requests---
+create table poker_affiliate_requests
+(
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,created DATETIME
+,answered DATETIME
+,user VARCHAR(1000)
+,status INT DEFAULT 0
+,data TEXT
+)---
+show tables---
+SELECT * FROM poker_cache_tournaments---
+DELETE FROM poker_cache_tournaments WHERE id=23518---
+SELECT * FROM poker_cache_tournaments---
+SELECT * FROM poker_cache_tournaments---
+SELECT * FROM poker_cache_tournament_results order by date desc---
+SELECT * FROM poker_cache_tournament_results---
+SELECT * FROM poker_cache_tournaments---
+DELETE FROM poker_cache_tournaments WHERE id=23517---
+SELECT * FROM poker_cache_tournaments---
+SELECT id, target as subject, amount, date FROM poker_chips_transactions WHERE user='PokerMaster'
+UNION
+select id, "[[Admin]]" as subject, -amount, date FROM poker_chips_transactions WHERE target='PokerMaster' AND user='' AND amount<0
+UNION
+select id, '[[CashOut]]' as subject, amount, date from poker_cashout_transactions WHERE status!='3' AND user='PokerMaster'---
+SELECT id, target as subject, amount, date FROM poker_chips_transactions WHERE user='PokerMaster'
+UNION
+select id, "[[Admin]]" as subject, -amount, date FROM poker_chips_transactions WHERE target='PokerMaster' AND user=''
+UNION
+select id, '[[CashOut]]' as subject, amount, date from poker_cashout_transactions WHERE status!='3' AND user='PokerMaster'---
+select id, '[[CashOut]]' as subject, amount, date from poker_cashout_transactions WHERE status!='3' AND user='PokerMaster'---
+select * from poker_cashout_transactions---
+select * from poker_cashout_deposit---
+SELECT id, target as subject, amount, date FROM poker_chips_transactions WHERE user='PokerMaster'
+UNION
+select id, "[[Admin]]" as subject, -amount, date FROM poker_chips_transactions WHERE target='PokerMaster' AND user=''---
+select id, "[[Admin]]" as subject, -amount, date FROM poker_chips_transactions WHERE target='PokerMaster' AND user=''---
+select * from poker_chips_transactions---
+select * from poker_cashout_transactions---
+SELECT id, target as subject, amount, date FROM poker_chips_transactions WHERE user='PokerMaster'---
+select * from poker_chips_transactions---
+
+        SELECT id, '[[Deposit]]' AS subject, amount, date 
+            FROM poker_deposit_transactions 
+            WHERE user='PokerMaster'
+        UNION
+        SELECT id, '[[Admin]]' as subject, -amount, date 
+            FROM poker_chips_transactions 
+            WHERE target='PokerMaster' AND amount<0
+        UNION
+        SELECT id, user as subject, amount, date 
+            FROM poker_chips_transactions 
+            WHERE target='PokerMaster' AND user!=''
+        ORDER BY date DESC---
+SELECT id, '[[Deposit]]' AS subject, amount, date 
+            FROM poker_deposit_transactions 
+            WHERE user='PokerMaster'
+        UNION
+        SELECT id, '[[Admin]]' as subject, -amount, date 
+            FROM poker_chips_transactions 
+            WHERE target='PokerMaster' AND amount<0
+        UNION
+        SELECT id, user as subject, amount, date 
+            FROM poker_chips_transactions 
+            WHERE target='PokerMaster' AND user!=''---
+select id, "[[Deposit]]" as user, amount, date from poker_deposit_transactions where user='PokerMaster'
+UNION
+select id, "[[Admin]]" as user, -amount, date from poker_chips_transactions where target='PokerMaster' AND amount<0
+UNION
+select id, user, amount, date from poker_chips_transactions WHERE target='PokerMaster' AND user!=""---
+select id, "[Deposit]" as user, amount, date from poker_deposit_transactions where user='PokerMaster'
+UNION
+select id, "[Admin]" as user, -amount, date from poker_chips_transactions where target='PokerMaster' AND amount<0
+UNION
+select id, user, amount, date from poker_chips_transactions WHERE target='PokerMaster' AND user!=""---
+select "[Deposit]" as user, amount, date from poker_deposit_transactions where user='PokerMaster'
+UNION
+select "[Admin]" as user, -amount, date from poker_chips_transactions where target='PokerMaster' AND amount<0
+UNION
+select user, amount, date from poker_chips_transactions WHERE target='PokerMaster' AND user!=""---
+select "[Deposit]" as user, amount, date from poker_deposit_transactions where user='PokerMaster'
+UNION
+select "[Admin]" as user, amount, date from poker_chips_transactions where target='PokerMaster' AND amount<0
+UNION
+select user, amount, date from poker_chips_transactions WHERE target='PokerMaster' AND user!=""---
+select * from poker_deposit_transactions where user='PokerMaster'---
+select "" as user, amount, date from poker_chips_transactions where target='PokerMaster' AND amount<0
+UNION
+select user, amount, date from poker_chips_transactions WHERE target='PokerMaster' AND user!=""---
+select "" as user, amount, date from poker_chips_transactions where target='PokerMaster' AND amount<0
+UNION
+select user, amount, date from poker_chips_transactions WHERE target='PokerMaster' AND amount>0---
+select "" as user, amount, date from poker_chips_transactions where target='PokerMaster' AND amount<0---
+select "", amount, date from poker_chips_transactions where target='PokerMaster' AND amount<0---
+select * from poker_chips_transactions---
+show tables---
+select * from poker_cashout_transactions---
+select * from poker_transfer_transactions---
+select * from poker_deposit_transactions---
+update poker_deposit_transactions set status = 1---
+select * from poker_deposit_transactions---
+select * from poker_deposit_transactions---
+create table poker_deposit_transactions(
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,user VARCHAR(1000)
+,amount FLOAT
+,date DATETIME
+,status INT
+,data TEXT
+)---
+select * from poker_cashout_transactions---
+select * from poker_cashout_transactions---
+select * from poker_cashout_transactions---
+select * from poker_cashout_transactions---
+create table poker_cashout_transactions(
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,user VARCHAR(1000)
+,amount FLOAT
+,date DATETIME
+,method VARCHAR(1000)
+,status INT
+,data TEXT
+)---
+select * from poker_chips_transactions---
+create table poker_chips_transactions(
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,user VARCHAR(1000)
+,target VARCHAR(1000)
+,amount FLOAT
+,balance FLOAT
+,date DATETIME
+,data TEXT
+
+)---
+select * from poker_users---
+delete from poker_users where name=''---
+select * from poker_users where name=''---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+update poker_users set balance = 10000 where id=1---
+select * from poker_users---
+select * from poker_users---
+select * from poker_cache_tournament_results order by stop desc---
+delete from poker_cache_tournament_results where id=122---
+select * from poker_cache_tournament_results order by stop desc---
+delete from poker_cache_tournament_results where id=121---
+delete from poker_cache_tournament_results where id=121---
+delete from poker_cache_tournament_results where id=121---
+delete from poker_cache_tournament_results where id=121---
+select * from poker_cache_tournament_results order by stop desc---
+delete from poker_cache_tournament_results where id=121---
+select * from poker_cache_tournament_results order by stop desc---
+delete from poker_cache_tournament_results where id=121---
+select * from poker_cache_tournament_results order by stop desc---
+select * from poker_tournament_registrations---
+select * from poker_cache_tournament_results order by stop desc---
+select * from poker_users---
+select * from poker_cache_tournament_results---
+create table poker_tickets(
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,tournament VARCHAR(1000)
+,places INT
+,tournament_for VARCHAR(1000)
+,created DATETIME
+,data TEXT
+)---
+select * from poker_cache_tournament_results---
+select * from poker_cache_tournaments_results---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+delete from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+alter table poker_cache_tournaments add column restart_time float default 0 after point_fee---
+alter table poker_cache_tournaments Add column point_enabled int default 0 after point_fee---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+update poker_cache_tournaments set status =''---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+update poker_cache_tournaments set status ='Playing: 1 of 1'---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+update poker_users set points_dec = 0---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_tournament_registrations---
+select * from poker_tournament_registrations---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+update poker_cache_tournaments set point_fee = 0---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+update poker_cache_tournaments set status = 1---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+update poker_cache_tournaments set point_fee = 100---
+select * from poker_cache_tournaments---
+delete from poker_cache_tournaments---
+alter table poker_cache_tournaments add column point_fee FLOAT DEFAULT 0 after id ---
+select * from poker_cache_tournaments---
+UPDATE poker_cache_tournaments SET name='freeroll' WHERE name='freeroll'---
+UPDATE poker_cache_tournaments SET name='freeroll',status='Registered: 1 of 10',description='',auto='Yes',game='No Limit Hold'em',shootout='No',pw='',private='No',permregister='ab123',permunregister='',permobserve='',permplayerchat='',permobserverchat='',suspendchatallin='No',tables='1',seats='10',startfull='Yes' WHERE name='freeroll'---
+UPDATE poker_cache_tournaments SET name='freeroll',status='Registered: 1 of 10',description='',auto='Yes',game='No Limit Hold'em',shootout='No',pw='',private='No',permregister='ab123',permunregister='',permobserve='',permplayerchat='',permobserverchat='',suspendchatallin='No',tables='1',seats='10',startfull='Yes',startmin='0',startcode='0',starttime='0000-00-00 00:00',regminutes='0',lateregminutes='0',minplayers='2',recurminutes='0',noshowminutes='0',buyin='0',entryfee='0',prizebonus='10000',multiplybonus='No',chips='1500',addonchips='0',turnclock='30',timebank='60',bankreset='0',disprotect='Yes',level='10' WHERE name='freeroll'---
+UPDATE poker_cache_tournaments SET name='freeroll',status='Registered: 1 of 10',description='',auto='Yes',game='No Limit Hold'em',shootout='No',pw='',private='No',permregister='ab123',permunregister='',permobserve='',permplayerchat='',permobserverchat='',suspendchatallin='No',tables='1',seats='10',startfull='Yes',startmin='0',startcode='0',starttime='0000-00-00 00:00',regminutes='0',lateregminutes='0',minplayers='2',recurminutes='0',noshowminutes='0',buyin='0',entryfee='0',prizebonus='10000',multiplybonus='No',chips='1500',addonchips='0',turnclock='30',timebank='60',bankreset='0',disprotect='Yes',level='10',rebuylevels='0',threshold='0',maxrebuys='0',rebuycost='0',rebuyfee='0',breaktime='0',breaklevels='0',stoponchop='No',blinds='10/20/0, 15/30/0, 25/50/0, 50/100/0, 75/150/0, 100/200/0, 100/200/25, 200/400/25, 300/600/50, 400/800/50, 600/1200/75, 800/1600/75, 1000/2000/100, 1500/3000/150, 2000/4000/200, 3000/6000/300, 4000/8000/400, 6000/12000/600, 8000/16000/800, 10000/20000/1000, 15000/30000/1500, 20000/40000/2000, 25000/50000/2500, 35000/70000/3500, 45000/90000/4500, 55000/110000/5500, 70000/140000/7000, 85000/170000/8500, 100000/200000/10000, 125000/250000/12500',payout='2-4, 100.00|5-7, 65.00, 35.00|8-10, 50.00, 30.00, 20.00|11-20, 45.00, 28.00, 17.00, 10.00|21-40, 36.00, 23.00, 15.00, 11.00, 8.00, 7.00|41-70, 30.00, 20.00, 14.00, 10.00, 8.00, 7.00, 6.00, 5.00|71-100, 29.00, 18.00, 12.50, 10.00, 8.00, 6.50, 5.50, 4.50, 3.50, 2.50|101-200, 28.00, 17.50, 11.50, 8.50, 7.00, 5.50, 4.50, 3.50, 2.50, 1.50, 1.00x10|201-400, 27.00, 16.50, 10.50, 8.00, 6.25, 4.75, 3.75, 2.75, 1.75, 1.25, 0.75x10, 0.50x20|401-700, 26.00, 15.50, 10.00, 7.50, 6.00, 4.50, 3.50, 2.50, 1.50, 1.00, 0.65x10, 0.40x20, 0.25x30|701-1000, 25.00, 15.00, 10.00, 7.25, 5.50, 4.25, 3.25, 2.25, 1.25, 0.75, 0.55x10, 0.40x20, 0.25x30, 0.15x30',unreglogout='No' WHERE name='freeroll'---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+delete from poker_cache_tournaments ---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+delete from poker_cache_tournaments where id> 23454---
+select * from poker_cache_tournaments---
+update poker_users set points_dec = 0---
+update poker_users set points_dec = 1300---
+select * from poker_users---
+select * from poker_users---
+alter table poker_users add column points_dec FLOAT default 0 after points---
+update poker_users add column points_dec FLOAT default 0 after points---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_tournament_registrations---
+create table poker_tournament_registrations(
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,user VARCHAR(1000)
+,tournament VARCHAR(1000)
+,registered DATETIME
+,data TEXT
+)---
+select * from poker_cache_tournaments---
+select * from poker_cache_tournaments---
+select * from poker_users---
+
+UPDATE poker_users SET poker_users.points = refs.points WHERE poker_users.id=refs.id---
+CREATE TEMPORARY TABLE refs AS SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100) AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake;
+UPDATE poker_users SET poker_users.points = refs.points WHERE poker_users.id=refs.id---
+CREATE TEMPORARY TABLE refs AS SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100) AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake;
+UPDATE poker_users set points = refs.points WHERE id=refs.id---
+CREATE TEMPORARY TABLE refs AS SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100) AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100) AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake---
+SELECT id, SUM(rake) FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY)
+ORDER BY id, ref_id) refs
+GROUP BY id---
+CREATE TEMPORARY TABLE refs AS 
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (
+ SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake 
+ FROM poker_users A INNER JOIN poker_users B
+ ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0   ORDER BY id, ref_id) rfs);
+UPDATE poker_users SET points=refs.points  GROUP BY id,aff_rake) res WHERE id = refs.id---
+CREATE TEMPORARY TABLE refs AS SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) rfs;
+UPDATE poker_users SET points=refs.points  GROUP BY id,aff_rake) res WHERE id = refs.id---
+CREATE TEMPORARY TABLE refs AS SELECT points FROM (SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) rfs;
+UPDATE poker_users SET points=refs.points  GROUP BY id,aff_rake) res WHERE id = refs.id---
+CREATE TEMPORARY TABLE refs AS SELECT points FROM (SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id);
+UPDATE poker_users SET points=refs.points  GROUP BY id,aff_rake) res WHERE id = refs.id---
+CREATE TEMPORARY TABLE refs AS (SELECT points FROM (SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) rfs);
+UPDATE poker_users SET points=refs.points  GROUP BY id,aff_rake) res WHERE id = refs.id---
+CREATE TEMPORARY TABLE refs AS (SELECT points FROM (SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id));
+UPDATE poker_users SET points=refs.points  GROUP BY id,aff_rake) res WHERE id = refs.id---
+SELECT points FROM (SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs;
+UPDATE poker_users SET points=refs.points  GROUP BY id,aff_rake) res WHERE id = refs.id---
+UPDATE poker_users SET points= SELECT points FROM (SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake) res WHERE id = res.id---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake---
+update poker_users set rake=0 where id=1---
+update poker_users set rake=0where id=1---
+update poker_users set rake=111111 where id=1---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100)/435 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+100) AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +(aff_rake+3) AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake---
+(SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id)---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +aff_rake AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>0 ORDER BY id, ref_id) refs GROUP BY id,aff_rake---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +aff_rake AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>342.07 ORDER BY id, ref_id) refs GROUP BY id,aff_rake---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 +aff_rake AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>342.07 ORDER BY id, ref_id) refs GROUP BY (id,aff_rake)---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*109 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake FROM poker_users A INNER JOIN poker_users B ON A.id = B.referral WHERE B.registered < DATE_SUB(NOW(), INTERVAL 5 DAY) AND B.rake>342.07 ORDER BY id, ref_id) refs GROUP BY id---
+SELECT id, COUNT(rake) AS count, COUNT(rake)*105 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND B.rake>10
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, COUNT(rake) AS count, SUM(rake)/105 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND B.rake>10
+ORDER BY id, ref_id) refs
+GROUP BY id---
+select * from poker_variables---
+SELECT id, SUM(rake) AS sumrake, SUM(rake)/105 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND B.rake>10
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, SUM(rake), SUM(rake)/105 AS points FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND B.rake>10
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, SUM(rake), SUM(rake)/105 FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND B.rake>0
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, SUM(rake), SUM(rake)/105 FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND B.rake>10
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, SUM(rake), SUM(rake)/105 FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND B.rake>140000
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, SUM(rake), SUM(rake)/105 FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND B.rake>1400
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, SUM(rake), SUM(rake)/105 FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND B.rake>1200
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, SUM(rake), SUM(rake)/105 FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY) AND rake>1200
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, SUM(rake), SUM(rake)/105 FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY)
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT id, SUM(rake) FROM (SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY)
+ORDER BY id, ref_id) refs
+GROUP BY id---
+SELECT A.id, A.rake as aff_rake, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY)
+ORDER BY id, ref_id---
+SELECT A.id, B.id AS ref_id, B.registered, B.rake
+FROM poker_users A 
+INNER JOIN poker_users B 
+ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY)
+ORDER BY id, ref_id---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 2 DAY)
+ORDER BY id, ref_id---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral 
+WHERE B.registered < DATE_SUB(NOW(), INTERVAL 20 DAY)
+ORDER BY id, ref_id---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral 
+WHERE B.registered < '2016-10-10'
+ORDER BY id, ref_id---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral 
+WHERE B.registered < '2016-10-15'
+ORDER BY id, ref_id---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral 
+WHERE registered < '2016-10-15'
+ORDER BY id, ref_id ---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id WHERE DATE(registered) < '2016-10-15' ---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id WHERE DATE(registered) BETWEEN '2016-10-15 00:00:00' AND NOW()---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id WHERE registered<'2016-10-15 00:00:00'---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id WHERE registered<'2016-10-15'---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id WHERE registered < '2016-10-15'---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id---
+SELECT id, SUM(rake) FROM (SELECT A.id, B.id as ref_id, B.registered, B.rake 
+FROM poker_users A 
+INNER JOiN poker_users B 
+ON A.id = B.referral 
+ORDER BY id, ref_id ) refs
+GROUP BY id---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id---
+SELECT id, SUM(rake) FROM (SELECT A.id, B.id as ref_id, B.registered, B.rake 
+FROM poker_users A 
+INNER JOiN poker_users B 
+ON A.id = B.referral 
+ORDER BY id, ref_id ) refs
+GROUP BY id---
+SELECT SUM(rake) FROM (SELECT A.id, B.id as ref_id, B.registered, B.rake 
+FROM poker_users A 
+INNER JOiN poker_users B 
+ON A.id = B.referral 
+ORDER BY id, ref_id ) refs
+GROUP BY id---
+SELECT SUM(rake) FROM (SELECT A.id, B.id as ref_id, B.registered, B.rake 
+FROM poker_users A 
+INNER JOiN poker_users B 
+ON A.id = B.referral 
+ORDER BY id, ref_id )
+GROUP BY id---
+select A.id, B.id as ref_id, B.registered, B.rake from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id---
+select A.id, B.id, B.registered, B.rake as ref_id from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id---
+select A.id, B.id as ref_id from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id, ref_id---
+select A.id, B.id as ref_id from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY id---
+select A.id, B.id as ref_id from poker_users A inner join poker_users B ON A.id = B.referral ORDER BY ref_id---
+select * from poker_users A inner join poker_users B ON A.id = B.referral---
+select * from poker_users---
+select * from poker_users---
+alter table poker_users add column points FLOAT default 0 AFTER balance---
+select * from poker_users---
+select * from poker_variables---
+insert into poker_variables VALUES 
+(default,'invitations_affiliate_rake','1',NOW(),'')---
+select * from poker_variables---
+insert into poker_variables VALUES (default,'points_invitation','1',NOW(),''),
+(default,'referral_mintime','1',NOW(),''),
+(default,'invitations_affiliate','1',NOW(),''),
+(default,'points_formula_rake','1',NOW(),''),
+(default,'points_invitation_rake','1',NOW(),'')---
+create table poker_variables(
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,name VARCHAR(3000)
+,value VARCHAR(1000)
+,changed DATETIME
+,data MEDIUMTEXT
+
+)---
+select * from poker_cache_tournament_results WHERE places LIKE '%"olivb5"%'---
+select * from poker_cache_tournament_results WHERE places LIKE '"%olivb5%"'---
+select * from poker_cache_tournament_results---
+select * from poker_cache_tournament_results---
+select * from poker_cache_tournaments---
+select * from cata_logger_journal order by date desc limit 0, 300---
+select * from poker_users---
+select * from poker_users---
+select * from poker_cache_tournament_results---
+select name, password from poker_users---
+select * from poker_users---
+select * from cata_logger_journal order by date desc limit 0, 300---
+select * from cata_logger_journal order by date desc limit 0, 30---
+select * from cata_logger_journal order by date desc limit 0, 30---
+select * from cata_logger_journal---
+select * from poker_users---
+update poker_users set referral_level=2 where id = 1---
+select * from poker_users---
+select * from poker_users---
+alter table poker_users add column referral_level int default 1 after referral---
+select * from poker_users---
+delete from poker_cache_tournament_results---
+select * from poker_cache_tournament_results---
+delete from poker_cache_tournament_results---
+select * from poker_cache_tournament_results---
+select * from cata_logger_journal order by date desc limit 0,30---
+select * from cata_logger_journal order by date limit 0,30---
+select count(*) from cata_logger_journal---
+select * from cata_logger_journal---
+select * from cata_logger_journam---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_cache_tournament_results---
+select sum(rake) from poker_users---
+UPDATE poker_users SET balance = 0 ,name = 'Referrally' ,chips = 0 ,email = 'om@a.c' ,referral = '1' ,password = 'password' ,realname = 'Omnis' ,location = 'Mogilev' ,gender = 2 ,api_id = 0 ,registered = '2016-10-21 11:54:17' ,totalrake = '[{"rake":"0", "date":"2016-10-10 00:00:00"}]' ,rake = ,rake_parsed = '2016-10-21 11:59:58' ,comission = 0.01 ,level2 = 0 ,ssid = '2ff7948dccafd485620b61985bfe72db' WHERE id = 10 ---
+select * from cata_logger_journal order by id desc limit 100---
+select * from cata_logger_journal order by id desc limit 100---
+select * from cata_logger_journal order by id desc limit 100---
+select * from cata_logger_journal order by id desc limit 100---
+select * from cata_logger_journal limit 100---
+select * From poker_users---
+select * From poker_users---
+select * From poker_users---
+select * From poker_users---
+select * From poker_users---
+select * From poker_users---
+select * From poker_users---
+select * From poker_users---
+select * From poker_users---
+select * From poker_users---
+alter table poker_users add column rake_parsed DATETIME after rake---
+alter table poker_users add column rake FLOAT after registered---
+select * From poker_users---
+select * poker_users---
+select CONVERT(`totalrake`, UNSIGNED INTEGER) from poker_users---
+select CONVERT(`totalrake`, INTEGER) from poker_users---
+select CONVERT(totalrake, INTEGER) from poker_users---
+select totalrake REGEXP '("[[:rake]]")' from poker_users---
+select totalrake REGEXP '("[[rake]]")' from poker_users---
+select totalrake REGEXP '("rake")' -> 1 from poker_users---
+select totalrake REGEXP '("rake")' from poker_users---
+select totalrake REGEXP '"rake"' from poker_users---
+select totalrake from poker_users---
+select * from poker_users---
+select * from poker_cache_tournament_results order by date desc---
+select * from poker_cache_tournament_results order by date desc---
+select * from poker_cache_tournament_results---
+delete from poker_cache_tournament_results---
+delete from poker_cache_tournament_results---
+delete from poker_cache_tournament_results---
+delete from poker_cache_tournament_results---
+delete from poker_cache_tournament_results---
+select * from poker_cache_tournament_results---
+select * from poker_cache_tournament_results---
+select * from poker_cache_tournament_results---
+describe poker_cache_tournament_results---
+create table poker_cache_tournament_results(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,name VARCHAR(1000)
+,date DATETIME
+,tournament VARCHAR(1000)
+,number INT
+,buyin VARCHAR(1000)
+,prizebonus VARCHAR(1000)
+,multiplybonus VARCHAR(100)
+,entrants INT
+,late INT
+,removed INT
+,rebuys INT
+,addons INT
+,rebuycost VARCHAR(1000)
+,netbonus FLOAT
+,stoponchop VARCHAR(100)
+,start DATETIME
+,stop DATETIME
+,places TEXT
+
+)---
+drop table poker_cache_tournament_results---
+create table poker_cache_tournament_results(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,name VARCHAR(1000)
+,date DATETIME
+,tournament VARCHAR(1000)
+,number INT
+,buyin VARCHAR(1000)
+,prizebonus VARCHAR(1000)
+,multiplybonus VARCHAR(100)
+,entrants INT
+,late INT
+,removed INT
+,rebuys INT
+,addons INT
+,rebuycost VARCHAR(1000)
+,netbonus FLOAT
+,stoponchop VARCHAR(100)
+,start DATETIME
+,stop DATETIME
+,places TEXT
+
+)---
+create table poker_cache_tournament_results(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,name VARCHAR(1000)
+,date DATETIME
+,tournament VARCHAR(1000)
+,number INT
+,buyin VARCHAR(1000)
+,prizebonus VARCHAR(1000)
+,multiplybonus VARCHAR(100)
+,entrants INT
+,late INT
+,removed INT
+,rebuys INT
+,addons INT
+,rebuycost VARCHAR(1000)
+,netbonus FLOAT
+,stoponchop VARCHAR(100)
+,start DATETIME
+,stop DATETIME
+,places TEXT
+
+)---
+drop table poker_cache_tournament_results---
+create table poker_cache_tournament_results(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,tournament VARCHAR(1000)
+,number INT
+,buyin VARCHAR(1000)
+,prizebonus VARCHAR(1000)
+,multiplybonus VARCHAR(100)
+,entrants INT
+,late INT
+,removed INT
+,rebuys INT
+,addons INT
+,rebuycost VARCHAR(1000)
+,netbonus FLOAT
+,stoponchop VARCHAR(100)
+,start DATETIME
+,stop DATETIME
+,places TEXT
+
+)---
+select * from poker_cache_tournaments---
+create table poker_cache_tournaments(
+ id int not null primary key auto_increment
+,name VARCHAR(1000)
+,status VARCHAR(1000)
+, description TEXT
+,auto VARCHAR(100)
+,game VARCHAR(1000)
+,shootout VARCHAR(100)
+,pw VARCHAR(1000)
+,private VARCHAR(100)
+,permregister TEXT
+,permunregister TEXT
+,permobserve TEXT
+,permplayerchat TEXT
+,permobserverchat TEXT
+,suspendchatallin TEXT
+,tables INT
+,seats INT
+,startfull VARCHAR(100)
+,startmin INT
+,startcode INT
+,starttime DATETIME
+,regminutes INT
+,lateregminutes INT
+,minplayers INT
+,recurminutes INT
+,noshowminutes INT
+,buyin FLOAT
+,entryfee FLOAT
+,prizebonus FLOAT
+,multiplybonus FLOAT
+,chips FLOAT
+,addonchips FLOAT
+,turnclock FLOAT
+,timebank FLOAT
+,bankreset FLOAT
+,disprotect VARCHAR(100)
+,level INT
+,rebuylevels INT
+,threshold FLOAT
+,maxrebuys INT
+,rebuycost FLOAT
+,rebuyfee FLOAT
+,breaktime FLOAT
+,breaklevels FLOAT
+,stoponchop VARCHAR(100)
+,blinds MEDIUMTEXT
+,payout TEXT
+,unreglogout VARCHAR(100)
+)---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+alter table poker_users add column level2 int default 0 after comission---
+select * from poker_users---
+alter table poker_users add column comission float default 0.01 after totalrake---
+select * from poker_users---
+select * from poker_users---
+update poker_users set referral=5 where id>=1 and referral=0---
+select * from poker_users---
+update poker_users set referral = 5 where id>1 and referral=0---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+drop table poker_hands_cache---
+drop tablepoker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_cache_handhistory---
+select * from poker_cache_handhistory---
+select * poker_cache_handhistory---
+select count(*) from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select  * from poker_cache_hands---
+select * from poker_hands_cache---
+select * from poker_cache_ringgames---
+select * from poker_cache_ringgames---
+select * from poker_cache_ringgames---
+select * from poker_cache_ringgames---
+create table poker_cache_ringgames(
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,name VARCHAR(1000)
+,status VARCHAR(1000)
+,description TEXT
+,auto VARCHAR(10)
+,game VARCHAR(1000)
+,pw VARCHAR(1000)
+,private VARCHAR(10)
+,permplay TEXT
+,permobserve TEXT
+,permplayerchat TEXT
+,permobserverchat TEXT
+,suspendchatallin VARCHAR(10)
+,seats INT
+,smallestchip FLOAT
+,buyinmin float
+,buyinmax float
+,buyindef float
+,rake float
+,rakeevery float
+,rakemax float
+,turnclock float
+,timebank float
+,bankreset float
+,disprotect VARCHAR(10)
+,smallblind float
+,bigblind float
+,dupeips VARCHAR(10)
+,ratholeminutes float
+,sitoutminutes float
+,sitoutrelaxed VARCHAR(10)
+
+)---
+drop table poker_cache_ringgames---
+create table poker_cache_ringgames(
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT
+,name VARCHAR(1000)
+,status VARCHAR(1000)
+,description TEXT
+,auto VARCHAR(10)
+,game VARCHAR(1000)
+,pw VARCHAR(1000)
+,private VARCHAR(10)
+,permplay TEXT
+,permobserve TEXT
+,permplayerchat TEXT
+,permobserverchat TEXT
+,suspendchatallin VARCHAR(10)
+,seats INT
+,smallestchip FLOAT
+,buyinmin float
+,buyinmax float
+,buyindef float
+,rake float
+,rakeevery float
+,rakemax float
+,turnclock float
+,timebank float
+,bankreset float
+,disprotect VARCHAR(10)
+,smallblind float
+,bigblind float
+,dupelps VARCHAR(10)
+,ratholeminutes float
+,sitoutminutes float
+,sitoutrelaxed VARCHAR(10)
+
+)---
+select  * from poker_frame_requests---
+select * from poker_cache_handhistory---
+select  * from poker_cache_hands---
+select  * from poker_cache_hands---
+select  * from poker_cache_hands---
+select  * from poker_cache_hands---
+create table poker_cache_hands(
+ hand INT NOT NULL PRImARY KEY
+,handtitle VARCHAR(1000)
+,statstitle VARCHAR(3000)
+,stats TEXT
+,history MEDIUMTEXT
+,handnumber VARCHAR(100)
+,`date` DATETIME
+,fileName VARCHAR(1000)
+,fileDate DATETIME
+)---
+select count(*) from poker_cache_handhistory---
+select count(*) from poker_cache_handhistory---
+select count(*) from poker_cache_handhistory---
+select * from poker_cache_handhistory---
+select * from poker_cache_handhistory---
+select * from poker_cache_handhistory---
+select * from poker_cache_handhistory---
+select * from poker_cache_handhistory---
+select * from poker_cache_handhistory---
+delete from poker_cache_handhistory---
+select * from poker_cache_handhistory---
+create table poker_cache_handhistory(
+             id INT NOT NULL AUTO_INCREMENT PRIMARY KEY
+            ,name VARCHAR(500)
+            ,`date` DATETIME
+            ,data MEDIUMTEXT
+            ,grabbed DATETIME
+            ,type INT
+            )---
+drop table poker_cache_handhistory---
+create table poker_cache_handhistory(
+ id INT NOT NULL AUTO_INCREMENT PRIMARY KEY
+,name VARCHAR(500)
+,`date` DATETIME
+,data MEDIUMTEXT
+,grabbed DATETIME
+,is_game INT
+)---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+delete from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+delete from poker_hands_cache---
+select * from poker_hands_cache---
+create table poker_hands_cache
+(
+ id INT NOT NULL PRimARY KEY aUTO_INCREMENT
+,name VArCHAR(200)
+,`date` VARChAR(50)
+,data MEDIUMTEXT
+,grabbed DATETIME
+)---
+drop table poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+delete from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+delete from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+delete from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+delete from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+select * from poker_hands_cache---
+create table poker_hands_cache
+(
+ id INT NOT NULL PRimARY KEY aUTO_INCREMENT
+,name VArCHAR(200)
+,`date` VARChAR(50)
+,data TEXT
+,grabbed DATETIME
+)---
+alter table poker_users add column totalrake varchar(2000) default '[{"rake":"0", "date":"2016-10-10 00:00:00"}]' after registered---
+alter table poker_users add column totalrake text default '[{"rake":"0", "date":"2016-10-10 00:00:00"}]' after registered ---
+alter table poker_users add column totalrake text after registered default '[{"rake":"0", "date":"2016-10-10 00:00:00"}]'---
+select * from poker_users---
+update poker_users set registered = "2016-10-12 10:00:00"---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+update poker_users set registered = "2016-12-10 10:00:00"---
+select * from poker_users---
+alter table poker_users add column registered DATETIME after api_id---
+select * from poker_users---
+update poker_users set referral=1 where id= 5---
+select * from poker_users---
+update poker_users set referral=1 where id= 4---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_frame_requests---
+update poker_frame_requests set status =1---
+alter table poker_frame_requests add column status int after created---
+select * from poker_users---
+select * from poker_users---
+create table poker_frame_requests(
+ id int not null auto_increment primary key
+,user int
+,created datetime
+,data text
+)---
+select * from poker_users---
+update poker_users set name='Dreviant'---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from poker_users---
+select * from cata_catalogs---
+select * from (select title, img, price,shorthand, item_id from addons_items inner join addons_goods on addons_items.parent = addons_goods.id) as old where item_id NOT IN (select parent from goods_gallery)---
+select * from goods_gallery---
+select * from (select title, img, price,shorthand, item_id from addons_items inner join addons_goods on addons_items.parent = addons_goods.id) as old---
+select * from addons_items---
+select * from (select title, img, price,shorthand, item_id from addons_items inner join addons_goods on addons_items.parent = addons_goods.id) as old---
+select title, img, price,shorthand, item_id from (select * from addons_items inner join addons_goods on addons_items.parent = addons_goods.id) as old---
+select title, img, price,shorthand, item_id from (select * from addons_items inner join addons_goods on addons_items.parent = addons_goods.id)---
+sselect title, img, price,shorthand, item_id from (select * from addons_items inner join addons_goods on addons_items.parent = addons_goods.id)---
+sselect title, img, price,shorthand, item_id from (select * from addons_items inner join addons_goods on addons_items.parent = addons_goods.id) as old---
+select * from addons_items inner join addons_goods on addons_items.parent = addons_goods.id---
+select * from addons_items---
+select * from goods_gallery---
+delete from  goods_items where id=460---
+delete from  goods_items where id=459---
+select * from goods_items---
+select * from cata_catalogs---
+delete from cata_apps_items where name='sliders'---
+select * from cata_apps_items---
+select * from cata_apps_apps---
+SELECT * FROM goods_items WHERE parent=1017 AND name LIKE %Пленка% and price<=100 and price >=1 and 1---
+delete from basket_user---
+select * from basket_user---
+select * from basket_users---
+select * from basket_items---
+select * from basket_items---
+select * from basket_items---
+select * from basket_items---
+delete from basket_items---
+select * from basket_items---
+select * from basket_items---
+select * from basket_items---
+select * from basket_user---
+describe basket_items---
+describe basket_user---
+select * from cata_catalogs---
+describe basket_baskets---
+select * from _articles---
+delete from _articles---
+select * from _articles---
+describe _articles---
+select * from cata_catalogs---
+update cata_catalogs set name='news' where id=9---
+select * from cata_catalogs---
+describe news_article---
+describe news_articles---
+decribe news_articles---
+select * from news---
+delete from cata_catalogs where id=8---
+select * from cata_catalogs---
+drop table news_articles---
+describe news_articles---
+delete from news_articles---
+select * from news---
+select * from news---
+show tables---
+select * from basket limit 0,30---
+select count(*) from basket---
+delete from basket where amount = 0---
+select * from basket limit 0,30---
+select count(*) from basket---
+---
+select * from basket---
+describe goods_gallery---
+select * from goods_gallery---
+describe goods_gallery---
+update goods_items set c_order_id = id---
+update goods_items set c_order_id = id+10000---
+update goods_items set c_order_id = id---
+update goods_items set c_order_id = 381 where id=379---
+select id, c_order_id from goods_items order by c_order_id---
+update goods_items set c_order_id = 379 where id=379---
+select id, c_order_id from goods_items order by c_order_id---
+select id, c_order_id from goods_items---
+select c_order_id from goods_items---
+select * from goods_items---
+select * from goos_items---
+INSERT INTO goods_items VALUES (default, 443,  ,'Штакетник металлический Полиэстер двухсторонний 0,5мм RAL6005','metalloproduktsiya','1697','Металлический штакетник без преувеличения можно смело назвать забором нового поколения. Элементы забора изготавливается из оцинкованной стали, толщиной 0,5мм с нанесенным защитно-декоративным полимерным покрытием. Покрытие может быть односторонним или двухсторонним (более популярным). Такой тип металла с полимерным покрытием используется для производства металлочерепицы и водосточных металлических систем. Забор, изготовленный из металлического штакетника надолго сохранит привлекательный внешний вид (срок службы не менее 20-25 лет), его нет необходимости дополнительно подкрашивать и ремонтировать.','<table><tr> <td>Параметры	
+</td> <td> </td> </tr><tr> <td>Толщина стали </td> <td> 	0,45-0,5 мм
+</td> </tr><tr> <td>Цинковое покрытие </td> <td> 	275-285 г/м2
+</td> </tr><tr> <td>Покрытие глянцевое </td> <td> 	25 мкм
+</td> </tr><tr> <td>Покрытие матовое </td> <td> 	35 мкм
+</td> </tr><tr> <td>Высота профиля </td> <td> 	19 мм
+</td> </tr><tr> <td>Ширина штакетника </td> <td> 	116 мм
+</td> </tr><tr> <td>Ребра жесткости </td> <td> 	12
+</td> </tr><tr> <td>Длина </td> <td> 	от 0,3 м до 3 м
+</td> </tr><tr> <td>Вес </td> <td> 	(1 м.п)	0,6-0,67 кг/м.п</td> </tr></table>','Евроштакетник для забора имеет меньшую парусность относительно забора из профнастила. При повреждении евроштакетника не нужно менять все секцию, проще заменить только несколько штакетин. Металлический штакетник – привлекательная цена, долговечность, дизайн, прост в монтаже. Металлический евроштакетник – популярный вариант при строительстве.','Беларусь','2.2','м.п.','1','1','','2016-09-20 15:54:37')---
+describe goods_items---
+describe goods_subcats---
+describe goods_cats---
+select visible from goods_items---
+describe goods_items---
+select * from goods_items---
+describe goods_items---
+describe goods_cats---
+describe goods_subcats---
+describe goods_items---
+INSERT INTO goods_items VALUES (default, 442, 1064 ,'Новый товар','','0','Описание товара пока пусто','{}','','','','0','шт.','1','1','','2016-09-20 10:58:07')---
+describe goods_items---
+describe goods_items---
+select * from goods_items---
+select count(*) from goods_items---
+select  * from goods_cats---
+alter table goods_cats add column description TEXT after type---
+select  * from goods_cats---
+select * from goods_cats where type='montazhnye-peny-germetiki'---
+select  * from goods_gallery---
+insert into goods_gallery select id, id as c_order_id, item_id as parent, title, img, shorthand as description, price from (select i.*, f.item_id  from addons_items i inner join addons_goods f on (f.id = i.parent) order by id) as z---
+insert into goods_gallery select id, id as c_order_id, item_id as parent, title, img, shorthand as description, price from (select i.*, f.item_id  from addons_items i inner join addons_goods f on (f.id = i.parent) order by id)---
+describe goods_gallery---
+select i.*, f.item_id  from addons_items i inner join addons_goods f on (f.id = i.parent) order by id---
+select i.*, f.item_id  from addons_items i inner join addons_goods f on (f.id = i.parent)---
+select i.id as i_id , * from addons_items i inner join addons_goods f on (f.id = i.parent)---
+select * from addons_items i inner join addons_goods f on (f.id = i.parent)---
+show tables---
+select * from addons_items i inner join addons_addons f on (f.id = i.parent)---
+select * from addons_items i inner join addons_folders f on (f.id = i.parent)---
+select * from addons_items---
+select * from cata_images_items order by id---
+delete from cata_images_items where parent=4---
+select count(*) from cata_images_items where parent=3---
+select * from cata_images_items order by id---
+select * from cata_images_items order by id---
+delete from cata_images_items where id>=30---
+select * from cata_images_items order by id---
+select * from cata_images_items---
+delete from cata_images_items where id>=254---
+select * from cata_images_items---
+select * from goods_items---
+delete from cata_images_items where id>=30---
+select * from cata_images_items---
+select * from cata_images_items---
+delete from cata_images_items where id>=30---
+select * from cata_images_items---
+delete from cata_images_items where id>=30---
+select * from cata_images_items---
+select * from cata_images_items---
+Select * from cata_images_folders---
+select * from goods_cats---
+Select * from cata_images_folders---
+insert into goods_items (select id, id as c_order_id, subtype as parent, `name`, `type`, 0, description, '', shorthand, maker,price,units,amount,1,'',`date` as created from goods) ---
+insert into goods_items (select id, id as c_order_id, subtype as parent, `name`, `type`, 0, description, '', shorthand, maker,price,units,amount,1,'',`date` as created) from goods---
+insert into goods_items values (select id, id as c_order_id, subtype as parent, `name`, `type`, 0, description, '', shorthand, maker,price,units,amount,1,'',`date` as created) from goods---
+insert into goods_items values (select id, id as c_order_id, subtype as parent, name, type, 0, description, '', shorthand, maker,price,units,amount,1,'',`date` as created) from goods---
+describe goods_items---
+select * from goods---
+select * from goods_subcats---
+insert into goods_subcats select * from (select c.code as id, c.code as c_order_id, g.id as parent, c.name as name, 0, c.type as type, '' from goods_cats g inner join cat c on (g.type=c.type)) AS t---
+insert into goods_subcats select * from (select c.code as id, c.code as c_order_id, g.id as parent, c.name as name, 0, c.type as type, '' from goods_cats g inner join cat c on (goods_cats.type=cat.type)) AS t---
+select * from goods_cats inner join cat on (goods_cats.type=cat.type)---
+insert into goods_subcats select * from (select * from goods_cats inner join cat on (goods_cats.type=cat.type)) AS t---
+insert into goods_subcats select * from (select * from goods_cats inner join cat on (goods_cats.type=cat.type))---
+select * from goods_cats inner join cat on (goods_cats.type=cat.type)---
+select * from goods_cats inner join cat on (main.type=cat.type)---
+select * from main inner join cat on (main.type=cat.type)---
+insert into goods_subcats (select t.code AS id, t.code AS c_order_id, t.name, 0, t.type, ''
+  FROM cat t)---
+insert into goods_subcats (code AS id, code AS c_order_id, t.name, 0, t.type, ''
+  FROM cat t---
+select * from cat---
+select * from goods_cats---
+insert into goods_cats (SELECT 
+       @rownum := @rownum + 1 AS id, @rownum AS c_order_id, t.name, 0, t.type, ''
+  FROM main t, 
+       (SELECT @rownum := 0) r)---
+insert into goods_cats (SELECT 
+       @rownum := @rownum + 1 AS id, @rownum AS c_order_id, t.name, 0, t.type, t.data
+  FROM main t, 
+       (SELECT @rownum := 0) r)---
+insert into goods_main (SELECT 
+       @rownum := @rownum + 1 AS id, @rownum AS c_order_id, t.name, 0, t.type, t.data
+  FROM main t, 
+       (SELECT @rownum := 0) r)---
+SELECT t.*, 
+       @rownum := @rownum + 1 AS rank
+  FROM main t, 
+       (SELECT @rownum := 0) r---
+Select ROWNUM() from main---
+Select ROW_NUMBER() from main---
+select * from main---
+select * from addons_items---
+select * from addons_images---
+select * from goods---
+select * from main---
+select * from cat---
+select * from main---
+select * from cat---
+select * from main---
+show tables---
+select * from subcat---
+select * from cat---
+describe cat---
+describe cats---
+show tables---
+update cata_catalogs set tables='{"addons_goods":{"item_id":"INT","name":"INT"},"addons_items":{"title":"VARCHAR(100)","img":"INT","price":"INT","shorthand":"TEXT"}}', skin='' where id=5
+---
+select * from cata_catalogs---
+update images_items set url = replace (url, ' ', '')---
+select * from cata_images_items---
+update cata_images_items set url = replace (url, ' ', '')---
+select * from images_items---
+select * from addons_items---
+select * from addons_goods---
+INSERT INTO `cata_catalogs` (`id`, `name`, `type`, `tables`) VALUES
+(default, 'addons', 2, '[{"tableName":"addons_goods","item_id":"INT","name":"TEXT"},{"tableName":"addons_items","title":"VARCHAR(100)","img":"INT","price":"INT","shorthand":"TEXT"}]')---
+INSERT INTO `cata_catalogs` (`id`, `name`, `type`, `tables`) VALUES
+(3, 'addons', 2, '[{"tableName":"addons_goods","item_id":"INT","name":"TEXT"},{"tableName":"addons_items","title":"VARCHAR(100)","img":"INT","price":"INT","shorthand":"TEXT"}]')---
+select * from cata_catalogs---
+select * from cata_images_items---
+insert into cata_images_items select id, id as c_order_id, parent, url, title, description, type, size from images_items---
+select  * from images_items---
+describe cata_images_items---
+select  * from images_items---
+select  * from cata_images_folders---
+insert into cata_images_folders select id, id as c_order_id, name from images_folders---
+insert into images_folders select id, id as c_order_id, name from images_folders---
+describe cata_images_folders---
+select  * from images_folders---
+show tables---
+select * from images_items---
+select * from images_folders---
+show tables---
+delete from users---
+delete from users---
+delete from users---
+select * from users---
+select * from users---
+select * from users---
+UPDATE `users` SET `contacts`='{"phone":"12","address":null}' WHERE id=87---
+select * from users---
+select * from users---
+delete from users where id=86---
+select * from users---
+select * from users---
+delete from users where id=81
+---
+select * from users---
+delete from users where id=76---
+select * from users---
+delete from users where id=75---
+select * from users---
+delete from users where id=74---
+select * from users---
+delete from users where id=73---
+select * from users---
+delete from users where id=72---
+select * from users---
+delete from users where id=71
+---
+select * from users---
+delete from users where id=70---
+select * from users---
+select * from users---
+delete from users where id=69---
+select * from users---
+select * from users---
+delete from users where id=68---
+select * from users---
+describe users---
+describe employer---
+delete from users where id=66---
+select * from users---
+select * from users---
+delete from users where id=65---
+delete from users where id=64---
+select * from users---
+delete from users where id=63---
+select * from users---
+delete * from users where id=63---
+select * from users---
+delete * from users where email=sirotininailona@mail.ru---
+select * from users---
+delete from users---
+INSERT INTO `vacancies` (`id`,`title,`content`,`img`,`salary_from`,`salary_to`,`city_id`,`data`,`poster`) VALUES (default,'Новая вакансия','',0,0,0,0,'',12)---
+INSERT INTO `vacancies` (`id`,`title,`content`,`img`,`salary_from`,`salary_to`,`city_id`,`data`,`poster`)VALUES(default,'Новая вакансия','',0,0,0,0,'',12)---
+INSERT INTO `vacancies` (`id`,`title,`content`,`img`,`salary_from`,`salary_to`,`city_id`,`data`,`poster`)VALUES(default,'Новая вакансия','','0','0','0','0','',12---
+select * from users---
+select * from users
+---
+SELECT max(id) from users---
+SELECT max(id) from vacancies---
+SELECT id from users where poster =1 order by id desc---
+SELECT id from users where poster =1 desc---
+select * from vacancies---
+describe vacancies---
+select * from news limit 1, (select count(*) from news)---
+select * from news limit 1, select count(*) from news---
+select * from news where NOT id IN ( select id from news limit 1, 3)---
+select * from news where id NOT IN ( select id from news limit 1, 3)---
+select * from news
+SUBTRACT
+select * from news limit 1, 3---
+select * from news
+EXCEPT
+select * from news limit 1, 3---
+select * from news
+MINUS
+select * from news limit 1, 3
+---
+select * from news where ROWNUM > 3---
+select top 4 from news---
+select * from news where row_number() > 3---
+select * from news---
+insert into news values (default, ' В ядрах Samsung M1 заложены принципы работы нейронной сети',31,'Процессор Exynos 8890 является выдающимся продуктом южнокорейского техногиганта Samsung. Из восьми ядер чипсета четыре представляют собой собственную разработку компании Samsung под кодовым названием Mongoose.','',NOW(),0,0,'')---
+insert into news values (default, ' Мобильные версии Google Docs и Google Sheets получили поддержку расширений',30,'омпания Google анонсировала поддержку сторонних расширений для своих приложений Docs и Sheets для Android. Это должно обеспечить бесшовную интеграцию мобильных офисных пакетов компании с другими инструментами, повышающими продуктивность работы с текстами и таблицами','',NOW(),0,0,'')---
+insert into news values (default, 'Google намерен бороться с навязчивой рекламой на мобильных устройствах',29,'В последнее время всё больше пользователей выходят в Сеть с мобильных устройств. По данным исследовательской компании TNS, в России 64 % пользователей Интернета ежедневно используют для этого смартфоны и планшеты. При этом на гаджеты такого типа приходится около 30 % всех поисковых запросов.','',NOW(),0,0,'')---
+insert into news values (default, 'Использование нанокристаллов позволило увеличить скорость передачи данных технологии Li-Fi',28,'Традиционные беспроводные коммуникационные технологии, такие, как Bluetooth или Wi-Fi, используют для передачи данных электромагнитные волны радиочастотного диапазона.','',NOW(),0,0,'')---
+insert into news values (default, 'Распознавание лиц стало общедоступной, быстрой и дешевой технологией',27,'Распознавание лиц сегодня набирает широкие обороты. Это связано, в частности, с высокой популярностью различных социальных веб-сервисов, включая социальные сети и мобильные приложения. Поэтому немудрено, что именно эти социальные технологии стараются сегодня быть как можно ближе к людям и распознавание лиц - серьезный шаг навстречу в этом направлении.','',NOW(),0,0,'')---
+describe news---
+select * from news---
+select * from news
+---
+SELECT id FROM `news`---
+describe news---
+select * from users---
+describe news---
+describe article---
+insert into strings values (default, 'test_string','Тестовая строка','{"ru":"Тестовая строка","eng":"Test string","fr":"ligne d\'essai"}','')---
+insert into strings values (default, 'test_string','Тестовая строка','{"ru":"Тестовая строка","eng":"Test string","fr":"ligne d'essai"}','')---
+select * from strings---
+describe news---
+SELECT * FROM strings WHERE name='приветствие'---
+SELECT * FROM strings WHERE name=44---
+describe news---
+CREATE TABLE IF NOT EXISTS `news` (
+`id` INT  PRIMARY KEY AUTO_INCREMENT,
+`title` VARCHAR(1000) DEFAULT '',
+`img` INT,
+`shorthand` TEXT DEFAULT '',
+`content`  MEDIUMTEXT,
+`published` DATETIME,
+`views`  INT,
+`user_type` INT,
+`data` text  DEFAULT ''
+)---
+CREATE TABLE IF NOT EXISTS `news` (
+`id` INT  PRIMARY KEY AUTO_INCREMENT,
+`title` VARCHAR(1000) DEFAULT '',
+`img` INT,
+`shorthand` TEXT DEFAULT '',
+`content`  MEDIUMTEXT,
+`published` DADETIME,
+`views`  INT,
+`user_type` INT,
+`data` text  DEFAULT ''
+)---
+select * from strings---
+INSERT INTO strings (`name`,`description`,`content`,`data`) VALUE('приветствие', 'хорошая девчонка','{"ru":"привет","en":"hello"}', 'магическое поле')---
+select * from strings---
+select * from strings---
+INSERT INTO strings (`name`,`description`,`content`,`data`) VALUE('ilonka', 'хорошая девчонка','В лему родилась елочка, в лесу она росла', 'магическое поле')
+---
+INSERT INTO string (`name`,`description`,`content`,`data`) VALUE('ilonka', 'хорошая девчонка','В лесу родилась елочка, в лесу она росла', 'магическое поле')
+---
+CREATE TABLE IF NOT EXISTS `strings` (
+`id` INT AUTO_INCREMENT,
+`name` VARCHAR(150) DEFAULT '' ,
+`description` VARCHAR(1000) DEFAULT '',
+`content`  MEDIUMTEXT,
+`data` text  DEFAULT '',
+PRIMARY KEY(id,name))---
+CREATE TABLE IF NOT EXISTS `strings` (
+  
+`id` int  PRIMARY KEY AUTO_INCREMENT,
+ 
+`name` VARCHAR(150) DEFAULT '' PRIMARY KEY,
+`description` VARCHAR(1000) DEFAULT '',
+`content`  MEDIUMTEXT,
+`data` text  DEFAULT ''
+)---
+CREATE TABLE IF NOT EXISTS `strings` (
+  
+`id` int  PRIMARY KEY AUTO_INCREMENT,
+ 
+`name` VARCHAR(1000) DEFAULT '' PRIMARY KEY,
+`description` VARCHAR(1000) DEFAULT '',
+`content`  MEDIUMTEXT,
+`data` text  DEFAULT ''
+)---
+select * from users where id=8---
+select * from users where id=8---
+CREATE TABLE IF NOT EXISTS `strings` (
+  
+`id` int  PRIMARY KEY AUTO_INCREMENT,
+ 
+`name` VARCHAR(1000) DEFAULT '' PRIMARY KEY,
+`description` VARCHAR(1000) DEFAULT '',
+`content`  MEDIUMTEXT DEFAULT '{"ru": " "
+}',
+`data` text  DEFAULT ''
+)---
+select * from users where id=8---
+select * from users where id=8---
+select * from users where id=8---
+select * from users where id=8---
+select * from users---
+select * from users---
+select * from users---
+update users set lastonline=""---
+select * from users---
+update users set lastonline=NOW()---
+CREATE TABLE IF NOT EXISTS `strings` (
+  
+`id` int  PRIMARY KEY AUTO_INCREMENT,
+ 
+`name` VARCHAR(1000) DEFAULT '' PRIMARY KEY,
+`description` VARCHAR(1000) DEFAULT '',
+`content`  MEDIUMTEXT DEFAULT '',
+`data` text  DEFAULT ''
+)---
+select * from users---
+CREATE TABLE IF NOT EXISTS `strings` (
+  
+`id` int  PRIMARY KEY AUTO_INCREMENT,
+ 
+`name` VARCHAR(1000) DEFAULT '' PRIMARY KEY AUTO_INCREMENT,
+`description` VARCHAR(1000) DEFAULT '',
+`content`  MEDIUMTEXT DEFAULT '',
+`data` text  DEFAULT ''
+)---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+ALTER TABLE users ADD COLUMN lastonline datetime DEFAULT NULL AFTER resumee---
+select * from users---
+show tables---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from cata_logger_journal order by id desc limit 5---
+select * from cata_logger_journal order by id desc---
+select * from cata_logger_journal order by id desc---
+select * from cata_logger_journal---
+select * from cata_logger_journal---
+select * from logger_journal---
+select * from cata_logger_journal---
+select * from logger_journal---
+show tables---
+select * from logger_journal---
+select * from loggerjournal---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from users---
+delete  from user_files---
+select * from user_files---
+delete  from user_files---
+describe  user_files---
+select * from user_files---
+delete  from user_files---
+delete * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from user_files---
+select * from resumee_tags---
+---
+describe user_files---
+select * from user_files---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+delete from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from user_files---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+select * from resumee_tags---
+SELECT * from `resumee_tags` WHERE `user`=1---
+select * from resumee_tags---
+alter table resumee_tags CHANGE COLUMN `resumee` `user` INT;---
+select * from resumee_tags---
+select * from user_files---
+CREATE TABLE IF NOT EXISTS `user_files` (
+  `id` int  PRIMARY KEY AUTO_INCREMENT,
+  `user` int DEFAULT 0,
+  `filename` text DEFAULT '',
+  `url` text DEFAULT '',
+  `type` text  DEFAULT '',
+  `data` text  DEFAULT ''
+)---
+select * from user_files---
+user_files ="CREATE TABLE IF NOT EXISTS `user_files` (
+  `id` int  PRIMARY KEY AUTO_INCREMENT,
+  `user` int DEFAULT 0,
+  `filename` text DEFAULT '',
+  `url` text DEFAULT '',
+  `type` text  DEFAULT '',
+  `data` text  DEFAULT ''
+)";---
+
+drop_user_files = "DROP TABLE IF EXISTS `user_files` ";---
+$drop_user_files = "DROP TABLE IF EXISTS `user_files` ";
+
+---
+
+$user_files ="CREATE TABLE IF NOT EXISTS `user_files` (
+  `id` int  PRIMARY KEY AUTO_INCREMENT,
+  `user` int DEFAULT 0,
+  `filename` text DEFAULT '',
+  `url` text DEFAULT '',
+  `type` text  DEFAULT '',
+  `data` text  DEFAULT ''
+)";---
+$drop_user_files = "DROP TABLE IF EXISTS `user_files` ";
+$user_files ="CREATE TABLE IF NOT EXISTS `user_files` (
+  `id` int  PRIMARY KEY AUTO_INCREMENT,
+  `user` int DEFAULT 0,
+  `filename` text DEFAULT '',
+  `url` text DEFAULT '',
+  `type` text  DEFAULT '',
+  `data` text  DEFAULT ''
+)";---
+select * from resumee---
+select * from users---
+select * from users---
+select * from users---
+select * from resumee---
+select * from users---
+select * from users---
+select * from users---
+SELECT `id` from `resumee` WHERE `poster` = 31---
+select * from users---
+UPDATE `users`
+SET `resumee`='12'
+WHERE id=35---
+UPDATE `users` WHERE id=36 (`resumee`) VALUES (12) WHERE id=36---
+INSERT INTO `users` WHERE id=36 (`resumee`) VALUES (12) WHERE id=36---
+INSERT INTO `users` (`resumee`) VALUES (12) WHERE id=36---
+INSERT INTO `users` (`resumee`) VALUES ('12') WHERE `id`=36---
+select * from users---
+select * from users---
+select * from users---
+SELECT `id` from `resumee` WHERE `poster` = 31---
+select * from resumee---
+SELECT `id` from `resumee` WHERE `poster` = 31---
+select * from resumee---
+select * from users---
+SELECT `id` from `RESUMEE` WHERE `poster` = 31---
+select * from resumee---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+ALTER TABLE users ADD column resumee INT AFTER data  ---
+select * from users---
+ALTER TABLE users DROP resumee---
+select * from users---
+ALTER TABLE users ADD resumee INTEGER---
+select * from users---
+ALTER TABLE 'users' ADD 'resumee' integer---
+ALTER TABLE 'users' ADD 'resumee' integer;---
+select * from cata_users---
+select * from users---
+select * from resumee_tags---
+---
+select * from users_tags---
+select * from tags---
+select * from resumee_tags---
+select * from resumee---
+INSERT INTO resumee_tags values(default,1120 ,2,0)---
+select * from resumee_tags---
+INSERT INTO resumee_tags values(default,612,10,0)---
+INSERT INTO resumee_tags values(default,612,2,0)---
+INSERT INTO resume_tags values(default,612,2,0)---
+select * from resumee_tags---
+select * from resumee---
+select * from resumee
+---
+select DISTINCT resumee from (select DISTINCT resumee AS rsm from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl INNER JOIN resumee_tags ON(tbl.rsm = resumee_tags.resumee) WHERE tag IN (1264, 1283)---
+select DISTINCT resumee from (select DISTINCT resumee AS rsm from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl INNER JOIN resumee_tags ON(tbl.rsm = resumee_tags.resumee) WHERE tag IN (1264, 1283)---
+select * from (select DISTINCT resumee AS rsm from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl INNER JOIN resumee_tags ON(tbl.rsm = resumee_tags.resumee) WHERE tag IN (1264, 1283)---
+select * from (select DISTINCT resumee from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl---
+select * from (select resumee from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl ---
+select * from (select DISTINCT resumee.*, resumee_tags.tag from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl---
+select * from (select DISTINCT * from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl---
+select * from (select * from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl---
+select * from (select * from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl where---
+select * from (select DISTINCT * from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl where ---
+select * from (select DISTINCT resumee, tag from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) as tbl---
+select * from tbl (select DISTINCT resumee, tag from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) )---
+select * from tbl as (select DISTINCT resumee, tag from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) ) ---
+select * from(select DISTINCT resumee, tag from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) )---
+select DISTINCT resumee, tag from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id) WHERE tag IN (1278, 1275) OR tag IN (1264, 1283)---
+select DISTINCT resumee, tag from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id)---
+select * from resumee INNER JOIN resumee_tags ON (resumee_tags.resumee = resumee.id)---
+with DB as (SELECT * FROM tags);
+ SELECT * FROM DB---
+with DB as (SELECT * FROM tags) SELECT * FROM DB---
+SELECT * FROM `resumee` INNER JOIN resumee_tags ON (resumee.id = resumee_tags.resumee) WHERE salary_from >1000 AND salary_to < 1000000 AND tag IN (1257)---
+SELECT * FROM `resumee` INNER JOIN resumee_tags ON (resumee.id = resumee_tags.resumee) WHERE salary_from >1000 AND salary_to < 1000000 AND tag IN (612)---
+SELECT * FROM `resumee` INNER JOIN resumee_tags ON (resumee.id = resumee_tags.resumee) WHERE salary_from >1000 AND salary_to < 1000000 AND tag IN (612) with tag in(1257)---
+SELECT * FROM `resumee` INNER JOIN resumee_tags ON (resumee.id = resumee_tags.resumee) WHERE salary_from >1000 AND salary_to < 1000000---
+SELECT DISTINCT `resumee` FROM `resumee` INNER JOIN resumee_tags ON (resumee.id = resumee_tags.resumee) WHERE salary_from >1000 AND salary_to < 1000000 ---
+select * from resumee_tags---
+select * from resumee---
+select * from tags---
+select * from tag---
+select * from resumee---
+select * from resumee---
+SELECT DISTINCT resumee FROM resumee INNER JOIN resumee_tags ON (resumee.id = resumee_tags.resumee) WHERE salary_from <100000 AND salary_to > 10000---
+select DISTINCT resumee from resumee inner join resumee_tags ON (resumee.id = resumee_tags.resumee) WHERE salary_from >1000 AND salary_to < 1000000 AND tag IN (1278, 1264, 1261)---
+select resumee from resumee inner join resumee_tags ON (resumee.id = resumee_tags.resumee) WHERE salary_from >1000 AND salary_to < 1000000 AND tag IN (1278, 1264, 1261)---
+select * from resumee inner join resumee_tags ON (resumee.id = resumee_tags.resumee) WHERE salary_from >1000 AND salary_to < 1000000---
+select * from resumee inner join resumee_tags ON (resumee.id = resumee_tags.resumee)---
+select * from resumee---
+select * from resumee---
+select * from resumee---
+select * from users---
+select * from users---
+SELECT * FROM `resumee` where not(salary_to<30000) and not(salary_from>40000)---
+SELECT * FROM `resumee` where not(salary_to<20000) and not(salary_from>30000)---
+SELECT * FROM `resumee` where not(salary_to<20000) and not(salary_from>3000)---
+SELECT * FROM `resumee` where not(salary_to<10000) and not(salary_from>15000)---
+SELECT * FROM `resumee` where not(salary_to<20000) and not(salary_from>25000)---
+SELECT * FROM `resumee` where not(salary_to>20000) and not(salary_from>25000)---
+SELECT * FROM `resumee` where not(salary_to>50000)---
+SELECT * FROM `resumee` where now(salary_to>50000)---
+SELECT * FROM `resumee` where now(salary_to>50000)---
+---
+SELECT * FROM `resumee` where now(salary_to>50000)---
+SELECT * FROM `resumee` where now(salary_from>50000)---
+SELECT * FROM `resumee` where now(salary_from>50000)---
+SELECT * FROM `resumee` where now(salary_from>10000) ---
+SELECT * FROM `resumee`---
+select* from resumee---
+select* from tags---
+select* from tag
+---
+delete from resumee_tags---
+select distinct * from resumee_tags---
+select distinct from resumee_tags---
+select* from resumee_tags---
+select * from resumee_tags where resumee = 2---
+SELECT * FROM resumee_tags INNER JOIN tags ON resumee_tags.tag = tags.id WHERE resumee_tags.resumee = 2 AND tags.type=3---
+SELECT * FROM resumee_tags LEFT JOIN tags ON resumee_tags.tag = tags.id WHERE ---
+SELECT * FROM resumee_tags JOIN tags ON resumee_tags.tag = tags.id---
+SELECT * FROM resumee_tags JOIN tags ON resumee_tags.tag = tags.tag---
+SELECT * FROM `tags`,`resumee_tags`  where resumee_tags.id=1275 and tags.type=3---
+select * from resumee_tags---
+select* from resumee_tags---
+
+update users  set type = 0 where auth_id = 19444244 ---
+select *from users---
+select * from resumee_tags---
+delete from users where auth_id = 19444244---
+delete from users where auth_id = 19444244---
+delete * from users where auth_id = 19444244---
+select *from users---
+select * from resumee_tags---
+select * from user---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary))  as lw, CONVERT(CONVERT('%Ко%' USING utf8) USING binary)   as lc from tags where LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary)) like CONVERT(CONVERT('%ко%' USING utf8) USING binary) ---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary))  as lw, CONVERT(CONVERT('%Ко%' USING utf8) USING binary)   as lc from tags where LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary)) like CONVERT(CONVERT('%ко%' USING utf8) USING binary) and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary))  as lw, CONVERT(CONVERT('%Ко%' USING utf8) USING binary)   as lc from tags where LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary)) like CONVERT(CONVERT('%Ко%' USING utf8) USING binary) and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary))  as lw, CONVERT(CONVERT('%Ко%' USING utf8) USING binary)   as lc from tags where lw like lc and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary))  as lw, CONVERT(CONVERT('%Ко%' USING utf8) USING binary)   from tags where LOWER(name)like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary))  as lw, CONVERT('%Ко%' USING utf8)   from tags where LOWER(name)like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary))  as lw from tags where LOWER(name), CONVERT('%Ко%' USING utf8) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary))  as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, CONVERT(LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary)) USING cp1251) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, CONVERT(LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary)) USING utf8) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING cp1251)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING cp1251)) USING binary)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING utf8)) USING binary)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING binary)) USING binary)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING binary)) USING cp1251)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(LOWER(CONVERT(name USING binary)) USING utf8)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(LOWER(CONVERT(name USING binary))) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(name USING koi8)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(name USING binary)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(name USING cp1251)) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select name, LOWER(CONVERT(name USING utf8)) as lw from tags where LOWER(name) like '%Ко%' and type=3 ---
+select name, LOWER(name) as lw from tags where LOWER(name) like '%Ко%' and type=3---
+select * from tags where LOWER(name) like '%Ко%' and type=3---
+select * from tags where LOWER(name) like '%ко%' and type=3---
+select * from tags where name like '%ко%' and type=3---
+select * from tags where name like '%ко%'---
+SELECT * from tags where type=3---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+SELECT * from tags---
+SELECT * from tags---
+SELECT * from resumee---
+SELECT * from resumee_tags---
+SELECT * from resumee_tags---
+---
+SELECT * from tags---
+SELECT * from TAGS---
+SELECT * from resumee_tags---
+SELECT * FROM `tags`,`resumee_tags`  where resumee_tags.id=1 ---
+SELECT * from users---
+update users set type=0---
+SELECT * from users---
+SELECT * from resumee---
+SELECT * from resumee---
+SELECT * from resumee---
+SELECT * from resumee---
+SELECT * from resumee---
+SELECT * from resumee---
+SELECT * from resumee---
+SELECT * from resumee---
+SELECT * from resumee---
+SELECT * from resumee---
+SELECT * from `users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+select * from users---
+---
+select * from users---
+select * from users---
+select * from user---
+SELECT id FROM tags WHERE name LIKE '%Мос%' UNION SELECT email FROM users; /*!%' AND type=1 */---
+SELECT id FROM tags WHERE name LIKE '%Мос%' UNION SELECT email FROM users; /*!%' AND type=1---
+SELECT id FROM tags WHERE name LIKE '%Мос%' UNION SELECT email FROM users; /*%' AND type=1---
+SELECT id FROM tags WHERE name LIKE '%Мос' UNION SELECT id FROM users;---
+SELECT id FROM tags WHERE name LIKE '%Мос' UNION SELECT email FROM users;---
+SELECT id FROM tags WHERE name LIKE '%Мос%' UNION SELECT balance FROM users; ---
+SELECT id FROM tags WHERE name LIKE '%Мос' UNION SELECT balance FROM users;---
+select * from users---
+select * from users---
+select * from users---
+describe users---
+update users set data='[{"title":"Образование","content":"Школа: Гимназия 74  Университет: БГУИР, оператор станка трактора "},{"title":"Опыт работы","content":"Оператор трактора, Белбакалея, 2012-2013 г. Оператор станка по производству тракторов, 2013-2015 г. Балерина, 2015-2016 г."},{"title":"Персональные данные","content":"Дата рождения: 10.10.2010г. Семейное положение: женат Языки: английский, русский"},{"title":"Рекомендации","content":"Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.  Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.  Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.  Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель "}]'

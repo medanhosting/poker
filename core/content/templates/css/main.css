@@ -1,0 +1,313 @@
+aside ul, aside ul li h4{
+	margin-top: 0;
+	padding: 0;
+}
+aside #add, .addSub{
+	border: 0;
+    background: 0;
+    font-family: inherit;
+    font-size: 160%;
+    padding: 3px 5px;
+    color: #3FAA6F!important;
+    cursor: pointer;
+    outline: none;
+}
+.wrapper aside{
+	width: 25%;
+	float: left;
+	margin-left: 5%; 
+}
+body li.item{
+	width: 100%;
+	display: block;
+	cursor: pointer;
+	float: left;
+	clear: both;
+	margin-bottom: 4px;	
+	
+
+}
+
+body li.item img{
+	width: 25%;
+	float: left;
+	margin-right: 5%;
+}
+body li.item *{
+	font-family: "Open Sans", sans-serif;
+}
+body li.item h4{
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+
+}
+body li.item p{
+	font-size: 12px;
+	margin-bottom: 20px;
+	margin: 0;
+	
+}
+body li.item span{
+	display: block;
+	text-align: right;
+	font-style: italic;
+	font-size: 13px;
+}
+body li.item img{
+	display: block;
+	float: left;
+	
+	margin-bottom: 5px;
+}
+body li.item div{
+
+	padding-top: 3px;
+	
+}
+body li.item div a{
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	text-decoration: none;
+	text-align: center;
+	color: rgba(0, 0, 0, 0);
+	display: none;
+	background-image: url('../img/link.png');
+	background-repeat: no-repeat;
+	background-size: 70% auto;
+	background-position: center center;
+}
+body li.item input{
+	float: right;
+	
+	margin: 0;
+	opacity: 0;
+	color: #fff;
+    font-family: inherit;
+    color: #111;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 5px;
+
+	cursor: pointer;
+}
+
+body li.item:hover div a{
+	display: block;
+}
+body li.item:hover input, body li.item.active input{
+	opacity: 1;
+}
+li.item.active>.clickable{
+	background-color: #3FAA6F;
+}
+li.item.active>.clickable *{
+	color: #fff;
+}
+body li.item>.clickable{
+	padding: 5px;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: -2px 2px 4px #eee;
+	cursor: pointer
+	
+}
+body li.item>.clickable input{
+	background: 0;
+	border: 0;
+	font-family: inherit;
+}
+body li.item>.clickable h4{
+	float: left;
+	width: 80%;
+}
+
+li.item.active>.sublist{
+	margin-left: 10px;
+	border-left: 4px solid #777;
+	padding-left: 10px;
+	float: left;
+	width: calc(100% - 24px);
+}
+.sublist ol{
+	float: left;
+	width: 100%;
+}
+.sublist .addSub{
+	float: left;
+    
+}
+
+
+form.edit, .contentEdit{
+	position: absolute;
+	width: 55%;
+	
+	left: 40%;
+	
+	top: 20px;
+	background-color: #fff;
+	box-shadow: -2px 2px 4px #eee;
+	padding: 7px 10px;
+	position: fixed;
+	max-height: 85vh;
+	overflow: auto;
+}
+form.edit label{
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+form.edit label input, form.edit label textarea{
+	display: block;
+    padding: 5px 8px;
+    border: 0;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 3px #ccc inset;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+	font-size: small;
+}
+form.edit input[type='button']{
+	display: block;
+    padding: 7px 7px;
+    border: 0;
+    color: #3FAA6F;
+    font-size: 90%;
+    font-family: inherit;
+	background: 0;
+	cursor: pointer;
+}
+
+
+.cEdit_editor{
+	padding: 0!important;
+}
+.contentEdit{
+	z-index: 5;
+	background-color: rgba(20,40,40,0.95);
+	height: 88vh;
+}
+form.edit fieldset{
+	width: 100%;
+	padding: 0!important;
+	
+	position: relative;
+	z-index: 4;
+	
+}
+li.banner[ch='1']{
+	width: 270px;
+}
+li.banner p.remove{
+	width: 40px;
+	height: 40px;
+	background-color: rgba(180,230,240,0.2);
+	opacity: 0.2;
+	margin-bottom: -40px;
+	float: right;
+	position: relative;
+	z-index:2;
+	cursor: pointer;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+form.edit a:link, form.edit a:visited{
+	color: rgba(180,240,250,0.5);
+	display: block;
+	text-align: right;
+	font-family: "Open Sans", sans-serif;
+}
+li.banner p.remove:hover{
+	opacity: 1;
+}
+
+.links input[type='text']{
+	display: inline-block !important;
+	width: 40% !important;
+	margin-right: .5%;
+}
+.links div input[type='button']{
+	display: inline-block!important;
+	padding: 7px 12px!important;
+}
+form.edit label{
+	border-bottom: 4px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	font-family: "Open Sans", sans-serif;
+	clear: both;
+}
+
+.cke_dialog_ui_input_file{
+	height: 80px!important;
+	
+}
+.cke_contents.cke_reset{
+	min-height: 80vh;
+}
+
+@keyframes spin{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(90deg);}
+	50%{transform: rotate(180deg);}
+	75%{transform: rotate(270deg);}
+	100%{transform: rotate(360deg);}
+}
+.loader{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 20px auto;
+	border: 3px solid #444;
+	border-right: 3px solid rgb(180,240,220);
+	border-radius: 50px;
+	animation: spin .5s infinite linear;
+}
+
+.sublist input.openList{
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-image: url("../img/articles.png");
+	background-size: 70% 70%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#save{
+	float: left;
+	margin-bottom: 15px;
+}
+#reloadItems{
+	float: right;
+	margin-bottom: 15px;
+}
+#reloadItems:after{
+	content: "";
+	display: inline;
+	clear: both;
+}
+.items>li>.clickable{
+	background-image: url('../img/folder.png');
+	background-size: auto 80%;
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	padding-left: 40px!important;
+}
+.sublist li .clickable{
+	background-image: url('../img/page.png');
+	background-size: auto 80%;
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	padding-left: 40px!important;
+}
+
+input.inline{display: inline-block!important;}
+textarea.editor{ font-family: monospace; font-size: 13px; tab-size: 4; min-height: 60vh;}
+p.htbtns{text-align: right;}

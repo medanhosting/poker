@@ -1,0 +1,132 @@
+aside.w_form{
+	display: block;
+	width: 30%;
+	margin: 40px 2%;
+	float: left;
+	
+	margin-top: 15px;
+}
+aside.w_form form, aside.w_form ul{
+	background-color: #fff;
+	padding: 10px;
+	box-shadow: -2px 2px 3px #ddd;
+	border: 1px solid #eee;
+	color: #333;
+	margin-bottom: 20px;
+}
+aside.w_form fieldset{
+	margin: 0;
+}
+aside.w_form textarea{
+	display: block;
+	height: 150px;
+	font-size: 13px;
+	border: 0px solid #41B072;
+	outline: none;
+	background-color: rgba(150,150,150,0.2);
+	
+}
+aside.w_form form input[type='submit']{
+	display: inline-block;
+    background: transparent;	
+	color: #41B072;
+	font-weight: normal;
+	font-size: 13px;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+	font-size: 16px;
+	margin-top: 10px;
+	float: right;
+}
+aside.w_form form input[type='submit']:hover{
+
+}
+aside ul{
+	height: 300px;
+	overflow: auto;
+}
+aside ul li{
+	font-size: 14px;
+	width: 100%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	background-color: rgba(140,180,160,0.8); 
+	margin-bottom: 5px;
+	word-wrap: break-word;
+	cursor: pointer;
+}
+
+aside ul li:hover{
+	background-color: rgba(40,40,40,0.7);
+}
+table{
+	display: table;
+	border-collapse: collapse;
+	max-width: 100%;
+}
+table td{
+	padding: 5px;
+	font-size: 13px;
+	max-width: 250px;
+	word-wrap: break-word;
+	border-right: 1px solid #666;
+}
+table xmp{
+	font-size: 13px;
+	max-width: 250px;
+	word-wrap: break-word;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+table thead tr td{
+	background-color: rgba(140,180,160,0.8);
+	border-right: 1px solid #333;
+}
+table tr:nth-child(2n+1){
+	background-color: rgba(40,40,40,0);
+}
+table tr:nth-child(2n){
+	background-color: rgba(100,100,100,0.2);
+}
+table td:hover{
+	background-color: #eee!important;
+	color: #333!important;
+}
+table td:hover *{
+	color: #333!important;
+}
+section{
+	float: right;
+	width:58%;
+	margin-right: 5%!important;
+}
+
+p.error{
+	color: #cc3222;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: -2px 2px 3px #ddd;
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+}
+p.info{
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: -2px 2px 3px #ddd;
+	border: 1px solid #ddd;
+	color: #26f;
+	margin-bottom: 5px;
+}
+
+tr:hover td, tr td.active{
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+}
+tr:hover td *, tr td.active *{
+	color: #fff;
+}
+xmp{
+	white-space: normal;
+}

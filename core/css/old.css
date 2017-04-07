@@ -1,0 +1,248 @@
+body{
+	background: url('../img/back3.jpg?1') no-repeat fixed;
+	background-size: cover;
+	margin-top: 50px;
+}
+body *{
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", Calibri, sans-serif;
+	color: #ddd;
+	font-weight: normal;
+	text-decoration: none;
+}
+header{
+	display: block;
+	width: 100%;
+	padding: 0;
+	float: left;
+	min-height: 40px;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 2;
+	
+}
+header>nav.main_nav{
+	display: block;
+	width:90%;
+	
+	float: left;
+	background: #111;
+	padding: 10px 5%;
+	min-height: 20px;
+
+ 	background: rgba(0,0,0,0.4);
+	border-bottom: 0px solid #222;
+	box-shadow: 0px 1px 10px rgb(70,80,110);
+
+}
+header>nav.main_nav>nav{
+	display: none;
+	float:left;
+}
+header>nav.main_nav>a{
+	display: block;
+	margin-bottom: -32px;
+}
+header>nav.main_nav>a.main_button{
+	float: left;
+	display: block;
+padding: 10px 15px;
+margin-top: -10px;
+margin-left: -10px;
+	transition:.2s;
+}
+header>nav.main_nav>a.main_button:hover{
+	background-color: rgba(140,160,150,0.4);
+
+}
+header>nav.main_nav>nav li{
+	display: block;
+}
+header>nav.main_nav>nav{
+	display: none;
+	height: 0;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	min-width: 200px;
+	clear: both;
+	position: relative;
+	top: 32px;
+	z-index: 2;
+	margin-bottom: -20px;
+}
+header>nav.main_nav a:hover+nav, header>nav.main_nav nav:hover{
+	display: block;
+	    margin-left: -10px;
+}
+header>nav.main_nav>nav ul.program_list{
+	background: #040404;
+	padding-left: 10px;
+}
+header>nav.main_nav>nav a{
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 13px;
+	padding-left: 35px;
+	height: 40px;
+	background-size: 30px 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	transition: .2s;
+	box-sizing: border-box;
+}
+header>nav.main_nav>nav a:hover{
+	color: #44d;
+	background-position: 3px center;}
+
+a.items{
+	background-image: url('https://cdn0.iconfinder.com/data/icons/customicondesignoffice5/128/catalog.png');
+}
+header>nav.main_nav>nav div.flow{
+	background: #040404;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-size: 13px;
+	
+}
+header>nav.main_nav>nav div.flow:last-of-type
+{
+	padding-bottom: 15px;
+}
+header>nav.main_nav>nav div.devtools>a{
+	background-image: url('https://cdn4.iconfinder.com/data/icons/humility-icons-MERGE/48x48/apps/control-center2.png');
+}
+header>nav.main_nav>nav div.system>a{
+	background-image: url('../img/system.png');
+}
+header>nav.main_nav>nav div.adm>a{
+	background-image: url('../img/adm.png');
+}
+
+header>nav.main_nav>nav div.flow>a:after{
+	display: block;
+	width: 0px;
+	height: 0px;
+	content: '';
+	border-left: 30px solid #ddd;
+	content: '';
+	border: 5px solid rgba(0, 0, 0, 0);
+	border-left-color: #DDD;
+	float: right;
+	margin-top: 3px;
+}
+header>nav.main_nav>nav div.flow>div
+{
+	height: 0px;
+	margin-left: 100%;
+	width: 100%;
+	position: relative;
+	top: -80px;
+	display: none;
+}
+header>nav.main_nav>nav div.flow:hover>div
+{
+	display: block;
+}
+header>nav.main_nav>nav div.flow>div>ul
+{
+	width: 100%;
+	background: #040404;
+	padding: 5px 10px;
+}
+header>nav.main_nav footer.bottom_menu
+{
+	background: #040404;
+	border-top: 1px solid #111;
+	height: 40px;
+	padding:  10px 0;
+	text-align: justify;
+}
+header>nav.main_nav footer.bottom_menu ul{
+	
+}
+header>nav.main_nav footer.bottom_menu li
+{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	
+	margin: 0 calc(33%/2 - 40px/2 - 2px)
+}
+
+header>nav.main_nav>a.main_button:hover+nav{
+	display: block;
+}
+
+
+header>nav.main_nav>footer.time{
+	float: right;
+	min-width: 75%;
+	text-align: right;
+	
+}
+
+header>nav.main_nav>footer.time p{
+	display: inline-block;
+	font-size: 14px;
+}
+header>nav.main_nav>footer.time div{
+	display: inline-block;
+	float: left;
+	width: 45%;
+	text-align: left;
+}
+header>nav.main_nav>footer.time p:first-of-type{
+	margin-right: 20%;
+}
+
+
+
+/*=======================================================================*/
+
+div.wrapper{
+	clear: both;
+	width: 90%;
+	margin: 0 auto;
+	min-height: 300px;
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	left: 5%;
+}
+div.wrapper>a{
+	position: absolute;
+	z-index: 1;
+	width: 80px;
+	display: block;
+	padding: 5px;
+	padding-top: 50px;
+	font-size: 12px;
+	background-size: 45px 45px;
+	background-position: center 5px;
+	background-repeat: no-repeat;
+	text-align: center;
+	word-wrap: break-word;
+	transition: .2s;
+	min-height: 40px;
+}
+div.wrapper>a:hover{
+	-color: #44d;
+	box-shadow: 0px 0px 10px #44d;
+}
+.wrapper>a{
+	background-image: url('../img/app.png');
+}
+div.wrapper>a:first-child{top: 60px;}
+div.wrapper>a:nth-child(2){top: 190px;}
+div.wrapper>a:nth-child(3){top: 110px; left: calc(5% + 70px);}
+div.wrapper>a:nth-child(4){top: 60px; left: 18%;}
+
+div.wrapper>div.widgets{
+	width: 30%;
+	position: absolute;
+	right: 0;
+}
